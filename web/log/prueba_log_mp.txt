@@ -1,0 +1,350 @@
+
+25-07-2017 21:06****ID:535611953*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+CUPON DE PAGO ABIERTO
+TERMINO OK
+25-07-2017 21:07****ID:535631332*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+CUPON DE PAGO ABIERTO
+TERMINO OK
+25-07-2017 21:07****ID:2875852425*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2875852425, ESTADO:approved, MONTO:22786
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+25-07-2017 21:07****ID:535631332*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2875852425, ESTADO:approved, MONTO:22786
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:39****ID:539120549*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-08-2017 15:45****ID:2889678334*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+NUEVO MOVIMIENTO
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-08-2017 15:45****ID:539120549*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-08-2017 15:47****ID:2889679886*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:authorized, MONTO:16586
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:47****ID:539120549*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:authorized, MONTO:16586
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:48****ID:2889679886*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:authorized, MONTO:16586
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:48****ID:2889678334*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:authorized, MONTO:16586
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:48****ID:2889679886*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:authorized, MONTO:16586
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:50****ID:539120549*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:authorized, MONTO:20000
+PAGO ID:2889679886, ESTADO:approved, MONTO:16586
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 15:52****ID:539120549*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+PAGO ID:2889678334, ESTADO:approved, MONTO:20000
+NUEVO MOVIMIENTO
+PAGO ID:2889679886, ESTADO:approved, MONTO:16586
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 16:07****ID:539153955*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-08-2017 16:10****ID:2889321143*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2889321143, ESTADO:rejected, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 16:10****ID:539153955*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2889321143, ESTADO:rejected, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 16:15****ID:2889321143*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2889321143, ESTADO:approved, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-08-2017 16:15****ID:539153955*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2889321143, ESTADO:approved, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+03-08-2017 17:31****ID:540432177*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 64
+NO SE ENCONTRO 64
+31-08-2017 18:49****ID:555605125*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 5
+SI CUPON DE PAGO 5
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-08-2017 18:51****ID:2957704632*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 5
+SI CUPON DE PAGO 5
+PAGO ID:2957704632, ESTADO:approved, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+31-08-2017 18:51****ID:555605125*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 5
+SI CUPON DE PAGO 5
+PAGO ID:2957704632, ESTADO:approved, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+28-09-2017 20:04****ID:570667402*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 32
+SI CUPON DE PAGO 32
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:744408459*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:744446087*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:744464426*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+31-05-2018 21:23****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+31-05-2018 21:23****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+31-05-2018 21:23****ID:744413280*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:744413280*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:23****ID:744413280*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 46
+SI CUPON DE PAGO 46
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:31****ID:744543959*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 47
+SI CUPON DE PAGO 47
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:33****ID:0*****TOPIC:****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+31-05-2018 21:38****ID:744557320*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 48
+SI CUPON DE PAGO 48
+CUPON DE PAGO ABIERTO
+TERMINO OK
+31-05-2018 21:39****ID:0*****TOPIC:****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 18:44****ID:745225817*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 49
+SI CUPON DE PAGO 49
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-06-2018 18:47****ID:0*****TOPIC:****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 18:59****ID:745234527*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 49
+SI CUPON DE PAGO 49
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-06-2018 19:02****ID:745234527*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 49
+SI CUPON DE PAGO 49
+PAGO ID:3784078189, ESTADO:in_process, MONTO:6489
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 19:02****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 19:02****ID:3784078189*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 49
+SI CUPON DE PAGO 49
+PAGO ID:3784078189, ESTADO:in_process, MONTO:6489
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 19:45****ID:745286245*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 50
+SI CUPON DE PAGO 50
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-06-2018 19:48****ID:745286245*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 50
+SI CUPON DE PAGO 50
+PAGO ID:3784389947, ESTADO:approved, MONTO:6649
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 19:48****ID:3784389947*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 50
+SI CUPON DE PAGO 50
+PAGO ID:3784389947, ESTADO:approved, MONTO:6649
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 19:48****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 19:48****ID:745286245*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 50
+SI CUPON DE PAGO 50
+PAGO ID:3784389947, ESTADO:approved, MONTO:6649
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 20:34****ID:745313484*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 51
+SI CUPON DE PAGO 51
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-06-2018 20:34****ID:745313484*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 51
+SI CUPON DE PAGO 51
+PAGO ID:3784543285, ESTADO:approved, MONTO:6489
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 20:34****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 20:34****ID:3784543285*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 51
+SI CUPON DE PAGO 51
+PAGO ID:3784543285, ESTADO:approved, MONTO:6489
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 20:37****ID:745302084*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 52
+SI CUPON DE PAGO 52
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-06-2018 20:37****ID:745302084*****TOPIC:merchant_order****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 52
+SI CUPON DE PAGO 52
+PAGO ID:3784545538, ESTADO:approved, MONTO:23384
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+01-06-2018 20:37****ID:0*****TOPIC: ****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+TERMINO OK
+01-06-2018 20:37****ID:3784545538*****TOPIC:payment****ENTORNO:prueba_***Credenciales:7138922892231670 - geibucLUNVeQ9BviNaCjgiAFSiluDqvB*********************************************
+
+BUSCANDO CUPON DE PAGO 52
+SI CUPON DE PAGO 52
+PAGO ID:3784545538, ESTADO:approved, MONTO:23384
+CUPON DE PAGO CERRADO
+TERMINO OK

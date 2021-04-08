@@ -1,0 +1,1252 @@
+
+
+
+ abierto15-02-2018 20:00:02,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:05:05,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:32:08,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:33:32,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:34:01,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:34:10,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:35:16,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:36:19,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:37:31,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:39:08,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:41:59,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto15-02-2018 22:42:32,sss:,sss:,sss:,sss:,sss:error params: 
+
+
+ abierto20-02-2018 14:09:33,sss:187,sss:130418,sss:-29.4329192,sss:-66.8711471,sss:Gaucho Rivero 1600-1698
+ SQL: update inmuebles set latitud='-29.4329192', longitud='-66.8711471', direccion_google='Gaucho Rivero 1600-1698', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130418;
+ RESULTADO: 1
+
+
+ abierto20-02-2018 14:30:00,sss:187,sss:130927,sss:-29.4300651,sss:-66.8766707,sss:Ecuador 1366
+ SQL: update inmuebles set latitud='-29.4300651', longitud='-66.8766707', direccion_google='Ecuador 1366', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130927;
+ RESULTADO: 1
+
+
+ abierto21-02-2018 12:32:05,sss:187,sss:130629,sss:-29.4258804,sss:-66.8561162,sss:French 900-948
+ SQL: update inmuebles set latitud='-29.4258804', longitud='-66.8561162', direccion_google='French 900-948', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130629;
+ RESULTADO: 1
+
+
+ abierto21-02-2018 12:55:26,sss:187,sss:130412,sss:-29.4278912,sss:-66.8591936,sss:Saavedra 1099-1199
+ SQL: update inmuebles set latitud='-29.4278912', longitud='-66.8591936', direccion_google='Saavedra 1099-1199', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130412;
+ RESULTADO: 1
+
+
+ abierto21-02-2018 13:33:12,sss:187,sss:130361,sss:-29.4204556,sss:-66.8670906,sss:Castro Barros 1321
+ SQL: update inmuebles set latitud='-29.4204556', longitud='-66.8670906', direccion_google='Castro Barros 1321', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130361;
+ RESULTADO: 1
+
+
+ abierto22-02-2018 11:55:01,sss:187,sss:130633,sss:-29.4368803,sss:-66.867883,sss:Apostol Sim√≥n 1999-2099
+ SQL: update inmuebles set latitud='-29.4368803', longitud='-66.867883', direccion_google='Apostol SimÛn 1999-2099', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130633;
+ RESULTADO: 1
+
+
+ abierto22-02-2018 12:26:33,sss:187,sss:130656,sss:-29.4352377,sss:-66.8673322,sss:Apostol Sto Tom√°s 1321
+ SQL: update inmuebles set latitud='-29.4352377', longitud='-66.8673322', direccion_google='Apostol Sto Tom·s 1321', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130656;
+ RESULTADO: 1
+
+
+ abierto22-02-2018 13:05:22,sss:187,sss:130888,sss:-29.4301497,sss:-66.8767219,sss:Calle √Ålvarez Jonte
+ SQL: update inmuebles set latitud='-29.4301497', longitud='-66.8767219', direccion_google='Calle ¡lvarez Jonte', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130888;
+ RESULTADO: 1
+
+
+ abierto22-02-2018 14:08:32,sss:187,sss:130340,sss:-29.4309061,sss:-66.877964,sss:Calle √Ålvarez Jonte
+ SQL: update inmuebles set latitud='-29.4309061', longitud='-66.877964', direccion_google='Calle ¡lvarez Jonte', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130340;
+ RESULTADO: 1
+
+
+ abierto22-02-2018 14:51:53,sss:187,sss:130900,sss:-29.4593262,sss:-66.8795238,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.4593262', longitud='-66.8795238', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130900;
+ RESULTADO: 1
+
+
+ abierto23-02-2018 11:32:39,sss:187,sss:130595,sss:-29.4119599,sss:-66.8607711,sss:Jujuy 155
+ SQL: update inmuebles set latitud='-29.4119599', longitud='-66.8607711', direccion_google='Jujuy 155', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130595;
+ RESULTADO: 1
+
+
+ abierto23-02-2018 11:34:27,sss:187,sss:130558,sss:-29.4119584,sss:-66.8607604,sss:Jujuy 155
+ SQL: update inmuebles set latitud='-29.4119584', longitud='-66.8607604', direccion_google='Jujuy 155', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130558;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 11:16:40,sss:187,sss:130601,sss:-29.4327036,sss:-66.8637157,sss:Gdor. Luis Vernet 1130
+ SQL: update inmuebles set latitud='-29.4327036', longitud='-66.8637157', direccion_google='Gdor. Luis Vernet 1130', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130601;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:00:15,sss:187,sss:130506,sss:-29.4324021,sss:-66.8729402,sss:Soberania Nacional 1599-1699
+ SQL: update inmuebles set latitud='-29.4324021', longitud='-66.8729402', direccion_google='Soberania Nacional 1599-1699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130506;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:30:48,sss:187,sss:129450,sss:-29.4384541,sss:-66.8670663,sss:Calle Moreau de Justo Alicia
+ SQL: update inmuebles set latitud='-29.4384541', longitud='-66.8670663', direccion_google='Calle Moreau de Justo Alicia', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129450;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:31:25,sss:187,sss:129450,sss:-29.438707,sss:-66.8670216,sss:Apostol Santiago El Menor 2199-2299
+ SQL: update inmuebles set latitud='-29.438707', longitud='-66.8670216', direccion_google='Apostol Santiago El Menor 2199-2299', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129450;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:53:38,sss:187,sss:129456,sss:-29.4382984,sss:-66.8670682,sss:Calle Moreau de Justo Alicia
+ SQL: update inmuebles set latitud='-29.4382984', longitud='-66.8670682', direccion_google='Calle Moreau de Justo Alicia', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129456;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:54:01,sss:187,sss:129456,sss:-29.4383838,sss:-66.8670314,sss:Calle Moreau de Justo Alicia
+ SQL: update inmuebles set latitud='-29.4383838', longitud='-66.8670314', direccion_google='Calle Moreau de Justo Alicia', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129456;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 12:54:23,sss:187,sss:129456,sss:-29.4384588,sss:-66.8669115,sss:Apostol Santiago El Menor 2199-2299
+ SQL: update inmuebles set latitud='-29.4384588', longitud='-66.8669115', direccion_google='Apostol Santiago El Menor 2199-2299', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129456;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 13:58:02,sss:187,sss:131073,sss:-29.4714895,sss:-66.8883568,sss:Homero Montes
+ SQL: update inmuebles set latitud='-29.4714895', longitud='-66.8883568', direccion_google='Homero Montes', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131073;
+ RESULTADO: 1
+
+
+ abierto26-02-2018 14:55:24,sss:187,sss:131089,sss:-29.4058419,sss:-66.8514017,sss:Jos√© Hern√°ndez 479
+ SQL: update inmuebles set latitud='-29.4058419', longitud='-66.8514017', direccion_google='JosÈ Hern·ndez 479', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131089;
+ RESULTADO: 1
+
+
+ abierto27-02-2018 11:54:13,sss:187,sss:130679,sss:-29.4086857,sss:-66.8583937,sss:8 de Diciembre 685
+ SQL: update inmuebles set latitud='-29.4086857', longitud='-66.8583937', direccion_google='8 de Diciembre 685', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130679;
+ RESULTADO: 1
+
+
+ abierto27-02-2018 13:11:26,sss:187,sss:131490,sss:-29.4228904,sss:-66.8779718,sss:Las Acacias 2413
+ SQL: update inmuebles set latitud='-29.4228904', longitud='-66.8779718', direccion_google='Las Acacias 2413', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131490;
+ RESULTADO: 1
+
+
+ abierto27-02-2018 13:38:35,sss:187,sss:130865,sss:-29.4302239,sss:-66.87661,sss:Ecuador 1366
+ SQL: update inmuebles set latitud='-29.4302239', longitud='-66.87661', direccion_google='Ecuador 1366', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130865;
+ RESULTADO: 1
+
+
+ abierto27-02-2018 14:48:02,sss:187,sss:129446,sss:-29.4383353,sss:-66.8695052,sss:Calle Moreau de Justo Alicia
+ SQL: update inmuebles set latitud='-29.4383353', longitud='-66.8695052', direccion_google='Calle Moreau de Justo Alicia', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129446;
+ RESULTADO: 1
+
+
+ abierto27-02-2018 15:03:47,sss:187,sss:129040,sss:-29.4394284,sss:-66.866585,sss:Apostol Santiago El Menor 2322
+ SQL: update inmuebles set latitud='-29.4394284', longitud='-66.866585', direccion_google='Apostol Santiago El Menor 2322', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129040;
+ RESULTADO: 1
+
+
+ abierto28-02-2018 12:13:07,sss:187,sss:131424,sss:-29.4134774,sss:-66.8231539,sss:Ni√±o Alcalde
+ SQL: update inmuebles set latitud='-29.4134774', longitud='-66.8231539', direccion_google='NiÒo Alcalde', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131424;
+ RESULTADO: 1
+
+
+ abierto28-02-2018 13:56:27,sss:187,sss:130856,sss:-29.4209174,sss:-66.8708009,sss:Castro Barros 1760
+ SQL: update inmuebles set latitud='-29.4209174', longitud='-66.8708009', direccion_google='Castro Barros 1760', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130856;
+ RESULTADO: 1
+
+
+ abierto28-02-2018 14:25:01,sss:187,sss:130796,sss:-29.4399025,sss:-66.8674491,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4399025', longitud='-66.8674491', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130796;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 12:36:39,sss:187,sss:130016,sss:-29.4195613,sss:-66.8303193,sss:Roberto Payro 899-949
+ SQL: update inmuebles set latitud='-29.4195613', longitud='-66.8303193', direccion_google='Roberto Payro 899-949', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130016;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 13:52:42,sss:187,sss:130812,sss:-29.4144038,sss:-66.8875747,sss:Quito 2908-2998
+ SQL: update inmuebles set latitud='-29.4144038', longitud='-66.8875747', direccion_google='Quito 2908-2998', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130812;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 14:04:36,sss:187,sss:130727,sss:-29.4121303,sss:-66.8888454,sss:Brasilia 3070
+ SQL: update inmuebles set latitud='-29.4121303', longitud='-66.8888454', direccion_google='Brasilia 3070', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130727;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 14:53:07,sss:187,sss:129442,sss:-29.4396966,sss:-66.8677148,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4396966', longitud='-66.8677148', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129442;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 14:54:01,sss:187,sss:129442,sss:-29.4375572,sss:-66.8690661,sss:Atlantico Sur 2000-2098
+ SQL: update inmuebles set latitud='-29.4375572', longitud='-66.8690661', direccion_google='Atlantico Sur 2000-2098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129442;
+ RESULTADO: 1
+
+
+ abierto01-03-2018 14:54:30,sss:187,sss:129442,sss:-29.4396966,sss:-66.8677148,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4396966', longitud='-66.8677148', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129442;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 11:21:52,sss:187,sss:130824,sss:-29.4293735,sss:-66.854023,sss:Av. Laprida 555
+ SQL: update inmuebles set latitud='-29.4293735', longitud='-66.854023', direccion_google='Av. Laprida 555', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130824;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 11:45:59,sss:187,sss:130710,sss:-29.4357407,sss:-66.8455539,sss:Fray Justo Sta Mar√≠a de Oro 2000-2048
+ SQL: update inmuebles set latitud='-29.4357407', longitud='-66.8455539', direccion_google='Fray Justo Sta MarÌa de Oro 2000-2048', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130710;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 12:35:00,sss:187,sss:131225,sss:-29.4230879,sss:-66.8691355,sss:Calle Nogales
+ SQL: update inmuebles set latitud='-29.4230879', longitud='-66.8691355', direccion_google='Calle Nogales', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131225;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 13:01:57,sss:187,sss:130743,sss:-29.4359677,sss:-66.866358,sss:Apostol San Judas Tadeo 1900-1998
+ SQL: update inmuebles set latitud='-29.4359677', longitud='-66.866358', direccion_google='Apostol San Judas Tadeo 1900-1998', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130743;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 13:37:32,sss:187,sss:128553,sss:-29.4400328,sss:-66.8766296,sss:Los Cardenales 2200-2298
+ SQL: update inmuebles set latitud='-29.4400328', longitud='-66.8766296', direccion_google='Los Cardenales 2200-2298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=128553;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 14:49:19,sss:187,sss:130514,sss:-29.4398456,sss:-66.8673732,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4398456', longitud='-66.8673732', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130514;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 14:50:09,sss:187,sss:130514,sss:-29.4398396,sss:-66.8674333,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4398396', longitud='-66.8674333', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130514;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 14:53:31,sss:187,sss:129845,sss:-29.4401344,sss:-66.8668255,sss:Av. F√©lix de la Colina
+ SQL: update inmuebles set latitud='-29.4401344', longitud='-66.8668255', direccion_google='Av. FÈlix de la Colina', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129845;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 14:53:58,sss:187,sss:129845,sss:-29.4400827,sss:-66.8671341,sss:Av. F√©lix de la Colina
+ SQL: update inmuebles set latitud='-29.4400827', longitud='-66.8671341', direccion_google='Av. FÈlix de la Colina', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129845;
+ RESULTADO: 1
+
+
+ abierto02-03-2018 14:54:49,sss:187,sss:129845,sss:-29.4400688,sss:-66.8669448,sss:Av. F√©lix de la Colina
+ SQL: update inmuebles set latitud='-29.4400688', longitud='-66.8669448', direccion_google='Av. FÈlix de la Colina', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129845;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 11:40:42,sss:187,sss:130823,sss:-29.4395413,sss:-66.8673578,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4395413', longitud='-66.8673578', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130823;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 13:11:06,sss:187,sss:130462,sss:-29.4194534,sss:-66.8772917,sss:Pje. San Antonio 2200-2298
+ SQL: update inmuebles set latitud='-29.4194534', longitud='-66.8772917', direccion_google='Pje. San Antonio 2200-2298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130462;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 13:56:22,sss:187,sss:131421,sss:-29.4478603,sss:-66.85793,sss:Martiniano Paredes
+ SQL: update inmuebles set latitud='-29.4478603', longitud='-66.85793', direccion_google='Martiniano Paredes', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131421;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 14:19:46,sss:187,sss:130481,sss:-29.4535906,sss:-66.8660867,sss:Corona de Cristo 48
+ SQL: update inmuebles set latitud='-29.4535906', longitud='-66.8660867', direccion_google='Corona de Cristo 48', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130481;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 14:42:13,sss:187,sss:130068,sss:-29.4534329,sss:-66.8599252,sss:Chingaza
+ SQL: update inmuebles set latitud='-29.4534329', longitud='-66.8599252', direccion_google='Chingaza', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130068;
+ RESULTADO: 1
+
+
+ abierto06-03-2018 14:42:30,sss:187,sss:130068,sss:-29.4534329,sss:-66.8599252,sss:Chingaza
+ SQL: update inmuebles set latitud='-29.4534329', longitud='-66.8599252', direccion_google='Chingaza', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130068;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 12:06:46,sss:187,sss:130911,sss:-29.42416,sss:-66.8774319,sss:Colombia 2300-2398
+ SQL: update inmuebles set latitud='-29.42416', longitud='-66.8774319', direccion_google='Colombia 2300-2398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130911;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 12:43:12,sss:187,sss:130921,sss:-29.4166117,sss:-66.8489143,sss:Dorrego 199-299
+ SQL: update inmuebles set latitud='-29.4166117', longitud='-66.8489143', direccion_google='Dorrego 199-299', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130921;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 14:24:11,sss:187,sss:131627,sss:-29.4360646,sss:-66.8478865,sss:√Ålvarez Thomas 2082
+ SQL: update inmuebles set latitud='-29.4360646', longitud='-66.8478865', direccion_google='¡lvarez Thomas 2082', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131627;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 14:33:31,sss:187,sss:130752,sss:-29.4354096,sss:-66.847682,sss:√Ålvarez Thomas 2034
+ SQL: update inmuebles set latitud='-29.4354096', longitud='-66.847682', direccion_google='¡lvarez Thomas 2034', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130752;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 14:34:18,sss:187,sss:130752,sss:-29.4353999,sss:-66.8477041,sss:√Ålvarez Thomas 2034
+ SQL: update inmuebles set latitud='-29.4353999', longitud='-66.8477041', direccion_google='¡lvarez Thomas 2034', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130752;
+ RESULTADO: 1
+
+
+ abierto07-03-2018 14:46:19,sss:187,sss:131567,sss:-29.4421228,sss:-66.8558323,sss:Manuela Ozan
+ SQL: update inmuebles set latitud='-29.4421228', longitud='-66.8558323', direccion_google='Manuela Ozan', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131567;
+ RESULTADO: 1
+
+
+ abierto08-03-2018 12:50:04,sss:187,sss:129734,sss:-29.433255,sss:-66.8489909,sss:Triunvirato 1800-1898
+ SQL: update inmuebles set latitud='-29.433255', longitud='-66.8489909', direccion_google='Triunvirato 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129734;
+ RESULTADO: 1
+
+
+ abierto08-03-2018 14:59:01,sss:187,sss:130844,sss:-29.4019854,sss:-66.8570321,sss:Avenida Juan Ram√≠rez de Velasco 799-899
+ SQL: update inmuebles set latitud='-29.4019854', longitud='-66.8570321', direccion_google='Avenida Juan RamÌrez de Velasco 799-899', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130844;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 13:14:57,sss:187,sss:131012,sss:-29.4324016,sss:-66.8745284,sss:Ganso Verde 1599-1699
+ SQL: update inmuebles set latitud='-29.4324016', longitud='-66.8745284', direccion_google='Ganso Verde 1599-1699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131012;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 13:29:21,sss:187,sss:130213,sss:-29.4236157,sss:-66.8751695,sss:Los Olmos 2100-2198
+ SQL: update inmuebles set latitud='-29.4236157', longitud='-66.8751695', direccion_google='Los Olmos 2100-2198', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130213;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 14:06:43,sss:187,sss:130746,sss:-29.4214368,sss:-66.8724575,sss:Granadero Baigorria 1799-1899
+ SQL: update inmuebles set latitud='-29.4214368', longitud='-66.8724575', direccion_google='Granadero Baigorria 1799-1899', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130746;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 14:39:57,sss:187,sss:130956,sss:-29.3982849,sss:-66.8584392,sss:Misiones 1300-1398
+ SQL: update inmuebles set latitud='-29.3982849', longitud='-66.8584392', direccion_google='Misiones 1300-1398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130956;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 15:00:29,sss:187,sss:130993,sss:-29.3945099,sss:-66.8554402,sss:Sta Teresita 1300-1398
+ SQL: update inmuebles set latitud='-29.3945099', longitud='-66.8554402', direccion_google='Sta Teresita 1300-1398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130993;
+ RESULTADO: 1
+
+
+ abierto09-03-2018 15:00:56,sss:187,sss:130993,sss:-29.3947251,sss:-66.8553297,sss:Sta Teresita 1299
+ SQL: update inmuebles set latitud='-29.3947251', longitud='-66.8553297', direccion_google='Sta Teresita 1299', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130993;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 12:37:44,sss:187,sss:130982,sss:-29.4330565,sss:-66.8639858,sss:Apostol Andr√©s 1700-1798
+ SQL: update inmuebles set latitud='-29.4330565', longitud='-66.8639858', direccion_google='Apostol AndrÈs 1700-1798', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130982;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 12:44:13,sss:187,sss:130945,sss:-29.4342276,sss:-66.8672423,sss:Apostol Santiago El Menor 1800-1898
+ SQL: update inmuebles set latitud='-29.4342276', longitud='-66.8672423', direccion_google='Apostol Santiago El Menor 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130945;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 13:28:09,sss:187,sss:130958,sss:-29.4487816,sss:-66.8726312,sss:Principal Rojas
+ SQL: update inmuebles set latitud='-29.4487816', longitud='-66.8726312', direccion_google='Principal Rojas', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130958;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 13:57:45,sss:187,sss:130917,sss:-29.4649994,sss:-66.8688833,sss:Esteban De Gaetano
+ SQL: update inmuebles set latitud='-29.4649994', longitud='-66.8688833', direccion_google='Esteban De Gaetano', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130917;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 13:58:03,sss:187,sss:130917,sss:-29.4644867,sss:-66.8694935,sss:Agust√≠n Bosetti
+ SQL: update inmuebles set latitud='-29.4644867', longitud='-66.8694935', direccion_google='AgustÌn Bosetti', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130917;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 14:43:05,sss:187,sss:130626,sss:-29.3869515,sss:-66.8197931,sss:Islas Shetland 1800-1898
+ SQL: update inmuebles set latitud='-29.3869515', longitud='-66.8197931', direccion_google='Islas Shetland 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130626;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 14:59:07,sss:187,sss:130626,sss:-29.386974,sss:-66.8197961,sss:Islas Shetland 1800-1898
+ SQL: update inmuebles set latitud='-29.386974', longitud='-66.8197961', direccion_google='Islas Shetland 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130626;
+ RESULTADO: 1
+
+
+ abierto12-03-2018 15:11:38,sss:187,sss:130695,sss:-29.3865538,sss:-66.819353,sss:Islas Shetland 1800-1898
+ SQL: update inmuebles set latitud='-29.3865538', longitud='-66.819353', direccion_google='Islas Shetland 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130695;
+ RESULTADO: 1
+
+
+ abierto13-03-2018 13:49:57,sss:187,sss:130863,sss:-29.4422292,sss:-66.8639792,sss:David Gatica
+ SQL: update inmuebles set latitud='-29.4422292', longitud='-66.8639792', direccion_google='David Gatica', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130863;
+ RESULTADO: 1
+
+
+ abierto13-03-2018 15:08:32,sss:187,sss:131252,sss:-29.3927363,sss:-66.8391467,sss:Calle Aztecas 1326
+ SQL: update inmuebles set latitud='-29.3927363', longitud='-66.8391467', direccion_google='Calle Aztecas 1326', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131252;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 11:21:40,sss:187,sss:113588,sss:-29.4258617,sss:-66.856092,sss:French 900-948
+ SQL: update inmuebles set latitud='-29.4258617', longitud='-66.856092', direccion_google='French 900-948', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=113588;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 12:15:15,sss:187,sss:130915,sss:-29.4381035,sss:-66.8714848,sss:Cap. Giachino 2099-2199
+ SQL: update inmuebles set latitud='-29.4381035', longitud='-66.8714848', direccion_google='Cap. Giachino 2099-2199', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130915;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 12:36:32,sss:187,sss:130838,sss:-29.4339851,sss:-66.8710866,sss:Gaucho Rivero 1700-1798
+ SQL: update inmuebles set latitud='-29.4339851', longitud='-66.8710866', direccion_google='Gaucho Rivero 1700-1798', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130838;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 13:02:44,sss:187,sss:131697,sss:-29.4368855,sss:-66.855738,sss:Rosa Arga√±araz 600-798
+ SQL: update inmuebles set latitud='-29.4368855', longitud='-66.855738', direccion_google='Rosa ArgaÒaraz 600-798', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131697;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 13:37:17,sss:187,sss:130494,sss:-29.431038,sss:-66.8518727,sss:Azcu√©naga 497
+ SQL: update inmuebles set latitud='-29.431038', longitud='-66.8518727', direccion_google='AzcuÈnaga 497', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130494;
+ RESULTADO: 1
+
+
+ abierto14-03-2018 14:18:43,sss:187,sss:131082,sss:-29.4155736,sss:-66.8647861,sss:Cnel. Lagos 136
+ SQL: update inmuebles set latitud='-29.4155736', longitud='-66.8647861', direccion_google='Cnel. Lagos 136', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131082;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 10:46:40,sss:187,sss:121136,sss:-29.4224104,sss:-66.8634234,sss:Granadero Gurel 872
+ SQL: update inmuebles set latitud='-29.4224104', longitud='-66.8634234', direccion_google='Granadero Gurel 872', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=121136;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 11:35:22,sss:187,sss:131167,sss:-29.4121156,sss:-66.8886582,sss:Brasilia 2999-3099
+ SQL: update inmuebles set latitud='-29.4121156', longitud='-66.8886582', direccion_google='Brasilia 2999-3099', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131167;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 12:01:47,sss:187,sss:131204,sss:-29.4143062,sss:-66.8870615,sss:Quito
+ SQL: update inmuebles set latitud='-29.4143062', longitud='-66.8870615', direccion_google='Quito', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131204;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 12:55:08,sss:187,sss:131760,sss:-29.402935,sss:-66.8541675,sss:Dardo de la Vega D√≠az 328
+ SQL: update inmuebles set latitud='-29.402935', longitud='-66.8541675', direccion_google='Dardo de la Vega DÌaz 328', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131760;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 13:13:36,sss:187,sss:131110,sss:-29.4028039,sss:-66.8554045,sss:Dardo de la Vega D√≠az 421
+ SQL: update inmuebles set latitud='-29.4028039', longitud='-66.8554045', direccion_google='Dardo de la Vega DÌaz 421', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131110;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 13:51:37,sss:187,sss:130876,sss:-29.4348995,sss:-66.8513502,sss:Calle Viamonte 1730
+ SQL: update inmuebles set latitud='-29.4348995', longitud='-66.8513502', direccion_google='Calle Viamonte 1730', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130876;
+ RESULTADO: 1
+
+
+ abierto15-03-2018 14:19:40,sss:187,sss:131165,sss:-29.4185364,sss:-66.8278352,sss:Roberto Payro 966-978
+ SQL: update inmuebles set latitud='-29.4185364', longitud='-66.8278352', direccion_google='Roberto Payro 966-978', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131165;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 10:33:20,sss:187,sss:127861,sss:-29.4221202,sss:-66.8559344,sss:Bol√≠var 654
+ SQL: update inmuebles set latitud='-29.4221202', longitud='-66.8559344', direccion_google='BolÌvar 654', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=127861;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:00:33,sss:187,sss:131234,sss:-29.4345229,sss:-66.8735,sss:Ganso Verde 1699-1799
+ SQL: update inmuebles set latitud='-29.4345229', longitud='-66.8735', direccion_google='Ganso Verde 1699-1799', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131234;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:28:13,sss:187,sss:131151,sss:-29.4366798,sss:-66.8755273,sss:Sta Rosa 1900-1998
+ SQL: update inmuebles set latitud='-29.4366798', longitud='-66.8755273', direccion_google='Sta Rosa 1900-1998', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131151;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:52:43,sss:187,sss:131068,sss:-29.453613,sss:-66.8832179,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.453613', longitud='-66.8832179', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131068;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:52:44,sss:187,sss:131068,sss:-29.4536463,sss:-66.8832339,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.4536463', longitud='-66.8832339', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131068;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:53:49,sss:187,sss:131068,sss:-29.4536389,sss:-66.8832111,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.4536389', longitud='-66.8832111', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131068;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 12:53:58,sss:187,sss:131068,sss:-29.4536251,sss:-66.883232,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.4536251', longitud='-66.883232', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131068;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 13:10:04,sss:187,sss:71515,sss:-29.4528298,sss:-66.8797646,sss: Los Colorados
+ SQL: update inmuebles set latitud='-29.4528298', longitud='-66.8797646', direccion_google=' Los Colorados', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=71515;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 13:41:05,sss:187,sss:130934,sss:-29.4103991,sss:-66.8622903,sss:Juan Bautista Alberdi 1009
+ SQL: update inmuebles set latitud='-29.4103991', longitud='-66.8622903', direccion_google='Juan Bautista Alberdi 1009', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130934;
+ RESULTADO: 1
+
+
+ abierto16-03-2018 13:41:32,sss:187,sss:130934,sss:-29.4103965,sss:-66.8622691,sss:Juan Bautista Alberdi 1009
+ SQL: update inmuebles set latitud='-29.4103965', longitud='-66.8622691', direccion_google='Juan Bautista Alberdi 1009', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130934;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 11:57:01,sss:187,sss:131780,sss:-29.4137923,sss:-66.8648487,sss:San Vicente 68
+ SQL: update inmuebles set latitud='-29.4137923', longitud='-66.8648487', direccion_google='San Vicente 68', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131780;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 12:35:56,sss:187,sss:131494,sss:-29.415242,sss:-66.8714976,sss:Av. San Nicol√°s de Bari 1666
+ SQL: update inmuebles set latitud='-29.415242', longitud='-66.8714976', direccion_google='Av. San Nicol·s de Bari 1666', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131494;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 13:12:26,sss:187,sss:131105,sss:-29.4223483,sss:-66.8567686,sss:17 de Agosto 649-699
+ SQL: update inmuebles set latitud='-29.4223483', longitud='-66.8567686', direccion_google='17 de Agosto 649-699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131105;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 13:13:06,sss:187,sss:131105,sss:-29.4221838,sss:-66.8566593,sss:17 de Agosto 649-699
+ SQL: update inmuebles set latitud='-29.4221838', longitud='-66.8566593', direccion_google='17 de Agosto 649-699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131105;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 13:34:13,sss:187,sss:131045,sss:-29.421489,sss:-66.8476838,sss:Italia 100-148
+ SQL: update inmuebles set latitud='-29.421489', longitud='-66.8476838', direccion_google='Italia 100-148', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131045;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 14:24:03,sss:187,sss:130538,sss:-29.4314069,sss:-66.8765684,sss:Ecuador 1366
+ SQL: update inmuebles set latitud='-29.4314069', longitud='-66.8765684', direccion_google='Ecuador 1366', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130538;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 14:50:20,sss:187,sss:121236,sss:-29.4396964,sss:-66.867747,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4396964', longitud='-66.867747', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=121236;
+ RESULTADO: 1
+
+
+ abierto19-03-2018 14:52:05,sss:187,sss:121236,sss:-29.4396521,sss:-66.8678152,sss:Apostol Sim√≥n
+ SQL: update inmuebles set latitud='-29.4396521', longitud='-66.8678152', direccion_google='Apostol SimÛn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=121236;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 12:05:16,sss:187,sss:131146,sss:-29.4173611,sss:-66.8560445,sss:Buenos Aires 299-319
+ SQL: update inmuebles set latitud='-29.4173611', longitud='-66.8560445', direccion_google='Buenos Aires 299-319', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131146;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 12:05:55,sss:187,sss:131146,sss:-29.4173437,sss:-66.8560447,sss:Buenos Aires 299-319
+ SQL: update inmuebles set latitud='-29.4173437', longitud='-66.8560447', direccion_google='Buenos Aires 299-319', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131146;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 12:33:52,sss:187,sss:131500,sss:-29.413822,sss:-66.8550678,sss:9 de Julio 41
+ SQL: update inmuebles set latitud='-29.413822', longitud='-66.8550678', direccion_google='9 de Julio 41', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131500;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 12:50:47,sss:187,sss:131159,sss:-29.4147614,sss:-66.8520886,sss:Benjam√≠n de la Vega 164
+ SQL: update inmuebles set latitud='-29.4147614', longitud='-66.8520886', direccion_google='BenjamÌn de la Vega 164', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131159;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 12:51:14,sss:187,sss:131159,sss:-29.414788,sss:-66.8520815,sss:Benjam√≠n de la Vega 164
+ SQL: update inmuebles set latitud='-29.414788', longitud='-66.8520815', direccion_google='BenjamÌn de la Vega 164', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131159;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 13:22:42,sss:187,sss:132206,sss:-29.4374265,sss:-66.8456059,sss:Rosa Arga√±araz 100
+ SQL: update inmuebles set latitud='-29.4374265', longitud='-66.8456059', direccion_google='Rosa ArgaÒaraz 100', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132206;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 14:02:57,sss:187,sss:132045,sss:-29.4493946,sss:-66.8630481,sss:Mistol
+ SQL: update inmuebles set latitud='-29.4493946', longitud='-66.8630481', direccion_google='Mistol', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132045;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 14:03:56,sss:187,sss:132045,sss:-29.449433,sss:-66.8618516,sss:Tala 26
+ SQL: update inmuebles set latitud='-29.449433', longitud='-66.8618516', direccion_google='Tala 26', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132045;
+ RESULTADO: 1
+
+
+ abierto20-03-2018 14:34:07,sss:187,sss:131015,sss:-29.4083901,sss:-66.8600348,sss:Catamarca 442
+ SQL: update inmuebles set latitud='-29.4083901', longitud='-66.8600348', direccion_google='Catamarca 442', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131015;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 11:06:40,sss:187,sss:131569,sss:-29.4188185,sss:-66.8605126,sss:Justo Jos√© de Urquiza 928-948
+ SQL: update inmuebles set latitud='-29.4188185', longitud='-66.8605126', direccion_google='Justo JosÈ de Urquiza 928-948', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131569;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 11:34:51,sss:187,sss:132263,sss:-29.4181349,sss:-66.851633,sss:Benjam√≠n de la Vega 385
+ SQL: update inmuebles set latitud='-29.4181349', longitud='-66.851633', direccion_google='BenjamÌn de la Vega 385', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132263;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 12:20:21,sss:187,sss:131209,sss:-29.4283763,sss:-66.8595171,sss:Pringles 900-998
+ SQL: update inmuebles set latitud='-29.4283763', longitud='-66.8595171', direccion_google='Pringles 900-998', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131209;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 12:20:59,sss:187,sss:131209,sss:-29.4283535,sss:-66.8595555,sss:Pringles 923
+ SQL: update inmuebles set latitud='-29.4283535', longitud='-66.8595555', direccion_google='Pringles 923', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131209;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 12:47:41,sss:187,sss:131554,sss:-29.4313788,sss:-66.8552226,sss:Calle Dr. Juan Olsacher 1535
+ SQL: update inmuebles set latitud='-29.4313788', longitud='-66.8552226', direccion_google='Calle Dr. Juan Olsacher 1535', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131554;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 12:48:06,sss:187,sss:131554,sss:-29.4313856,sss:-66.8552265,sss:Calle Dr. Juan Olsacher 1535
+ SQL: update inmuebles set latitud='-29.4313856', longitud='-66.8552265', direccion_google='Calle Dr. Juan Olsacher 1535', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131554;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 13:28:33,sss:187,sss:131025,sss:-29.4428085,sss:-66.8557478,sss:Mar√≠a Arg√ºello 769
+ SQL: update inmuebles set latitud='-29.4428085', longitud='-66.8557478', direccion_google='MarÌa Arg¸ello 769', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131025;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 14:04:56,sss:187,sss:131039,sss:-29.4085301,sss:-66.8599794,sss:Catamarca 423
+ SQL: update inmuebles set latitud='-29.4085301', longitud='-66.8599794', direccion_google='Catamarca 423', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131039;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 14:07:57,sss:187,sss:131039,sss:-29.4085452,sss:-66.8600397,sss:Catamarca 400-430
+ SQL: update inmuebles set latitud='-29.4085452', longitud='-66.8600397', direccion_google='Catamarca 400-430', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131039;
+ RESULTADO: 1
+
+
+ abierto21-03-2018 14:31:44,sss:187,sss:131351,sss:-29.4071376,sss:-66.8721749,sss:Indio Inchumin
+ SQL: update inmuebles set latitud='-29.4071376', longitud='-66.8721749', direccion_google='Indio Inchumin', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131351;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 10:56:16,sss:187,sss:124374,sss:-29.4273405,sss:-66.8598085,sss:Carlos Pellegrini 899-999
+ SQL: update inmuebles set latitud='-29.4273405', longitud='-66.8598085', direccion_google='Carlos Pellegrini 899-999', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=124374;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 10:56:47,sss:187,sss:124374,sss:-29.4273438,sss:-66.8598109,sss:Carlos Pellegrini 899-999
+ SQL: update inmuebles set latitud='-29.4273438', longitud='-66.8598109', direccion_google='Carlos Pellegrini 899-999', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=124374;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 11:31:44,sss:187,sss:131198,sss:-29.4357414,sss:-66.8740022,sss:Los Guanacos 1999-2049
+ SQL: update inmuebles set latitud='-29.4357414', longitud='-66.8740022', direccion_google='Los Guanacos 1999-2049', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131198;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 12:49:02,sss:187,sss:131244,sss:-29.452065,sss:-66.8685107,sss:Av. Dr. Luis de la Fuente 25
+ SQL: update inmuebles set latitud='-29.452065', longitud='-66.8685107', direccion_google='Av. Dr. Luis de la Fuente 25', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131244;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 13:47:44,sss:187,sss:131120,sss:-29.4435305,sss:-66.8705242,sss:√ëo√±olo Albarrac√≠n
+ SQL: update inmuebles set latitud='-29.4435305', longitud='-66.8705242', direccion_google='—oÒolo AlbarracÌn', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131120;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 14:09:42,sss:187,sss:132067,sss:-29.4370362,sss:-66.8476375,sss:Rosa Arga√±araz 164
+ SQL: update inmuebles set latitud='-29.4370362', longitud='-66.8476375', direccion_google='Rosa ArgaÒaraz 164', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132067;
+ RESULTADO: 1
+
+
+ abierto22-03-2018 14:55:02,sss:187,sss:132327,sss:-29.3918168,sss:-66.851065,sss:Mercedarios 1000-1098
+ SQL: update inmuebles set latitud='-29.3918168', longitud='-66.851065', direccion_google='Mercedarios 1000-1098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132327;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 11:39:03,sss:187,sss:131418,sss:-29.4247533,sss:-66.859263,sss:Saavedra 773-947
+ SQL: update inmuebles set latitud='-29.4247533', longitud='-66.859263', direccion_google='Saavedra 773-947', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131418;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 12:20:59,sss:187,sss:131299,sss:-29.4219654,sss:-66.8543662,sss:Bol√≠var 499-599
+ SQL: update inmuebles set latitud='-29.4219654', longitud='-66.8543662', direccion_google='BolÌvar 499-599', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131299;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 12:55:51,sss:187,sss:131330,sss:-29.4294546,sss:-66.8519195,sss:Av. Laprida 400-498
+ SQL: update inmuebles set latitud='-29.4294546', longitud='-66.8519195', direccion_google='Av. Laprida 400-498', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131330;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 13:12:08,sss:187,sss:131256,sss:-29.4324328,sss:-66.8682166,sss:Carlos Gardel 1300-1398
+ SQL: update inmuebles set latitud='-29.4324328', longitud='-66.8682166', direccion_google='Carlos Gardel 1300-1398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131256;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 13:19:27,sss:187,sss:131256,sss:-29.4337335,sss:-66.8770292,sss:Gdor. Luis Vernet 2059
+ SQL: update inmuebles set latitud='-29.4337335', longitud='-66.8770292', direccion_google='Gdor. Luis Vernet 2059', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131256;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 13:19:55,sss:187,sss:131256,sss:-29.4339003,sss:-66.8771306,sss:Gdor. Luis Vernet 2059
+ SQL: update inmuebles set latitud='-29.4339003', longitud='-66.8771306', direccion_google='Gdor. Luis Vernet 2059', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131256;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 13:54:53,sss:187,sss:131324,sss:-29.43634,sss:-66.8679066,sss:Apostol Sim√≥n 1899-1999
+ SQL: update inmuebles set latitud='-29.43634', longitud='-66.8679066', direccion_google='Apostol SimÛn 1899-1999', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131324;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 14:47:26,sss:187,sss:131233,sss:-29.4045721,sss:-66.8625556,sss:La Merced 599-649
+ SQL: update inmuebles set latitud='-29.4045721', longitud='-66.8625556', direccion_google='La Merced 599-649', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131233;
+ RESULTADO: 1
+
+
+ abierto23-03-2018 14:47:55,sss:187,sss:131233,sss:-29.4043664,sss:-66.8629359,sss:La Merced 600-648
+ SQL: update inmuebles set latitud='-29.4043664', longitud='-66.8629359', direccion_google='La Merced 600-648', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131233;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 12:03:38,sss:187,sss:131019,sss:-29.4275232,sss:-66.8533171,sss:Carlos Pellegrini 399-499
+ SQL: update inmuebles set latitud='-29.4275232', longitud='-66.8533171', direccion_google='Carlos Pellegrini 399-499', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131019;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 12:03:57,sss:187,sss:131019,sss:-29.4275445,sss:-66.8533175,sss:Carlos Pellegrini 430-498
+ SQL: update inmuebles set latitud='-29.4275445', longitud='-66.8533175', direccion_google='Carlos Pellegrini 430-498', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131019;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 12:53:33,sss:187,sss:3051,sss:-29.4362943,sss:-66.8641184,sss:Apostol San Marcos 1100-1144
+ SQL: update inmuebles set latitud='-29.4362943', longitud='-66.8641184', direccion_google='Apostol San Marcos 1100-1144', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=3051;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 13:44:18,sss:187,sss:131862,sss:-29.4217975,sss:-66.8429674,sss:Mosconi 139
+ SQL: update inmuebles set latitud='-29.4217975', longitud='-66.8429674', direccion_google='Mosconi 139', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131862;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 14:13:53,sss:187,sss:93693,sss:-29.4324159,sss:-66.8383826,sss:Juan Mercado 31
+ SQL: update inmuebles set latitud='-29.4324159', longitud='-66.8383826', direccion_google='Juan Mercado 31', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=93693;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 14:36:55,sss:187,sss:131294,sss:-29.4192468,sss:-66.8447735,sss:Ag√ºero Vera 64-98
+ SQL: update inmuebles set latitud='-29.4192468', longitud='-66.8447735', direccion_google='Ag¸ero Vera 64-98', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131294;
+ RESULTADO: 1
+
+
+ abierto26-03-2018 14:51:56,sss:187,sss:131294,sss:-29.4194414,sss:-66.8452308,sss:1 de Marzo 502
+ SQL: update inmuebles set latitud='-29.4194414', longitud='-66.8452308', direccion_google='1 de Marzo 502', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131294;
+ RESULTADO: 1
+
+
+ abierto27-03-2018 11:48:38,sss:187,sss:9147,sss:-29.3921814,sss:-66.8291589,sss:Base Esperanza 1599-1699
+ SQL: update inmuebles set latitud='-29.3921814', longitud='-66.8291589', direccion_google='Base Esperanza 1599-1699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=9147;
+ RESULTADO: 1
+
+
+ abierto27-03-2018 12:06:06,sss:187,sss:131509,sss:-29.3932439,sss:-66.8321203,sss:Base Primavera
+ SQL: update inmuebles set latitud='-29.3932439', longitud='-66.8321203', direccion_google='Base Primavera', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131509;
+ RESULTADO: 1
+
+
+ abierto27-03-2018 12:44:26,sss:187,sss:132513,sss:-29.4226326,sss:-66.8536474,sss:Balcarce 422-498
+ SQL: update inmuebles set latitud='-29.4226326', longitud='-66.8536474', direccion_google='Balcarce 422-498', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132513;
+ RESULTADO: 1
+
+
+ abierto28-03-2018 11:29:20,sss:187,sss:131100,sss:-29.4183199,sss:-66.85597,sss:Buenos Aires 361-399
+ SQL: update inmuebles set latitud='-29.4183199', longitud='-66.85597', direccion_google='Buenos Aires 361-399', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131100;
+ RESULTADO: 1
+
+
+ abierto28-03-2018 12:33:09,sss:187,sss:131573,sss:-29.4252604,sss:-66.8776459,sss:Per√∫ 2350-2398
+ SQL: update inmuebles set latitud='-29.4252604', longitud='-66.8776459', direccion_google='Per˙ 2350-2398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131573;
+ RESULTADO: 1
+
+
+ abierto28-03-2018 13:10:50,sss:187,sss:132057,sss:-29.4330717,sss:-66.8756206,sss:Sta Rosa
+ SQL: update inmuebles set latitud='-29.4330717', longitud='-66.8756206', direccion_google='Sta Rosa', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132057;
+ RESULTADO: 1
+
+
+ abierto28-03-2018 13:53:09,sss:187,sss:131591,sss:-29.4178601,sss:-66.8639779,sss:Sta Fe 1141-1195
+ SQL: update inmuebles set latitud='-29.4178601', longitud='-66.8639779', direccion_google='Sta Fe 1141-1195', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131591;
+ RESULTADO: 1
+
+
+ abierto28-03-2018 14:34:32,sss:187,sss:6711,sss:-29.4232874,sss:-66.8532316,sss:Espa√±a 399-499
+ SQL: update inmuebles set latitud='-29.4232874', longitud='-66.8532316', direccion_google='EspaÒa 399-499', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=6711;
+ RESULTADO: 1
+
+
+ abierto29-03-2018 11:16:53,sss:187,sss:131621,sss:-29.4224432,sss:-66.8694318,sss:Av. Facundo Quiroga 1649-1731
+ SQL: update inmuebles set latitud='-29.4224432', longitud='-66.8694318', direccion_google='Av. Facundo Quiroga 1649-1731', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131621;
+ RESULTADO: 1
+
+
+ abierto29-03-2018 11:47:01,sss:187,sss:132261,sss:-29.4188558,sss:-66.8486651,sss:Guayaquil 175
+ SQL: update inmuebles set latitud='-29.4188558', longitud='-66.8486651', direccion_google='Guayaquil 175', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132261;
+ RESULTADO: 1
+
+
+ abierto29-03-2018 12:15:37,sss:187,sss:132743,sss:-29.399005,sss:-66.8433417,sss:R√≠o Tercero 1049-1099
+ SQL: update inmuebles set latitud='-29.399005', longitud='-66.8433417', direccion_google='RÌo Tercero 1049-1099', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132743;
+ RESULTADO: 1
+
+
+ abierto03-04-2018 11:56:46,sss:187,sss:132748,sss:-29.3908039,sss:-66.8441681,sss:Charruas
+ SQL: update inmuebles set latitud='-29.3908039', longitud='-66.8441681', direccion_google='Charruas', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132748;
+ RESULTADO: 1
+
+
+ abierto03-04-2018 12:28:32,sss:187,sss:131588,sss:-29.3911976,sss:-66.8399207,sss:Guaranies 699
+ SQL: update inmuebles set latitud='-29.3911976', longitud='-66.8399207', direccion_google='Guaranies 699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131588;
+ RESULTADO: 1
+
+
+ abierto03-04-2018 12:29:13,sss:187,sss:131588,sss:-29.3913736,sss:-66.8400749,sss:Tehuelches 1298
+ SQL: update inmuebles set latitud='-29.3913736', longitud='-66.8400749', direccion_google='Tehuelches 1298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131588;
+ RESULTADO: 1
+
+
+ abierto03-04-2018 13:16:43,sss:187,sss:131890,sss:-29.4232945,sss:-66.8427294,sss:Malvinas Argentinas 200-298
+ SQL: update inmuebles set latitud='-29.4232945', longitud='-66.8427294', direccion_google='Malvinas Argentinas 200-298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131890;
+ RESULTADO: 1
+
+
+ abierto03-04-2018 14:01:49,sss:187,sss:132632,sss:-29.4424763,sss:-66.8550669,sss:Calle Dr. Juan Olsacher
+ SQL: update inmuebles set latitud='-29.4424763', longitud='-66.8550669', direccion_google='Calle Dr. Juan Olsacher', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132632;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 12:22:18,sss:187,sss:131949,sss:-29.3888336,sss:-66.8419881,sss:Av. Leandro N. Alem 2100
+ SQL: update inmuebles set latitud='-29.3888336', longitud='-66.8419881', direccion_google='Av. Leandro N. Alem 2100', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131949;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 13:00:37,sss:187,sss:131641,sss:-29.3921737,sss:-66.8301164,sss:Base Camara 1148-1198
+ SQL: update inmuebles set latitud='-29.3921737', longitud='-66.8301164', direccion_google='Base Camara 1148-1198', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131641;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 13:37:00,sss:187,sss:131733,sss:-29.3949559,sss:-66.8347587,sss:Base Margarita 26
+ SQL: update inmuebles set latitud='-29.3949559', longitud='-66.8347587', direccion_google='Base Margarita 26', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131733;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 14:09:01,sss:187,sss:131302,sss:-29.4235606,sss:-66.856439,sss:Espa√±a 640-698
+ SQL: update inmuebles set latitud='-29.4235606', longitud='-66.856439', direccion_google='EspaÒa 640-698', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131302;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 14:09:21,sss:187,sss:131302,sss:-29.4235791,sss:-66.8564364,sss:17 de Agosto 750-798
+ SQL: update inmuebles set latitud='-29.4235791', longitud='-66.8564364', direccion_google='17 de Agosto 750-798', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131302;
+ RESULTADO: 1
+
+
+ abierto04-04-2018 14:32:03,sss:187,sss:132079,sss:-29.427199,sss:-66.8560857,sss:French 1000-1098
+ SQL: update inmuebles set latitud='-29.427199', longitud='-66.8560857', direccion_google='French 1000-1098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132079;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 12:30:06,sss:187,sss:132063,sss:-29.4273961,sss:-66.8550951,sss:Carlos Pellegrini 599-699
+ SQL: update inmuebles set latitud='-29.4273961', longitud='-66.8550951', direccion_google='Carlos Pellegrini 599-699', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132063;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 12:50:02,sss:187,sss:131498,sss:-29.4272444,sss:-66.858388,sss:Beruti 1065
+ SQL: update inmuebles set latitud='-29.4272444', longitud='-66.858388', direccion_google='Beruti 1065', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131498;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 12:50:31,sss:187,sss:131498,sss:-29.4272415,sss:-66.8583466,sss:Beruti 1065
+ SQL: update inmuebles set latitud='-29.4272415', longitud='-66.8583466', direccion_google='Beruti 1065', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131498;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 13:07:01,sss:187,sss:131513,sss:-29.4361174,sss:-66.8482381,sss:Cleofe Arias 136
+ SQL: update inmuebles set latitud='-29.4361174', longitud='-66.8482381', direccion_google='Cleofe Arias 136', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131513;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 13:08:27,sss:187,sss:131513,sss:-29.4361813,sss:-66.8485318,sss:Cleofe Arias
+ SQL: update inmuebles set latitud='-29.4361813', longitud='-66.8485318', direccion_google='Cleofe Arias', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131513;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 14:18:56,sss:187,sss:93045,sss:-29.4485444,sss:-66.8590385,sss:Av. Quebracho Colorado
+ SQL: update inmuebles set latitud='-29.4485444', longitud='-66.8590385', direccion_google='Av. Quebracho Colorado', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=93045;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 14:19:14,sss:187,sss:93045,sss:-29.4485502,sss:-66.8589664,sss:Av. Quebracho Colorado
+ SQL: update inmuebles set latitud='-29.4485502', longitud='-66.8589664', direccion_google='Av. Quebracho Colorado', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=93045;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 14:19:44,sss:187,sss:93045,sss:-29.4485729,sss:-66.8589531,sss:Av. Ortiz de Ocampo
+ SQL: update inmuebles set latitud='-29.4485729', longitud='-66.8589531', direccion_google='Av. Ortiz de Ocampo', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=93045;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 15:25:58,sss:187,sss:130224,sss:-29.3983601,sss:-66.8414029,sss:Av. √Ångel Vicente Pe√±aloza 1311
+ SQL: update inmuebles set latitud='-29.3983601', longitud='-66.8414029', direccion_google='Av. ¡ngel Vicente PeÒaloza 1311', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130224;
+ RESULTADO: 1
+
+
+ abierto05-04-2018 15:26:18,sss:187,sss:130224,sss:-29.3983591,sss:-66.8414092,sss:Av. √Ångel Vicente Pe√±aloza 1311
+ SQL: update inmuebles set latitud='-29.3983591', longitud='-66.8414092', direccion_google='Av. ¡ngel Vicente PeÒaloza 1311', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=130224;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 11:23:16,sss:187,sss:131647,sss:-29.4231071,sss:-66.8521251,sss:Espa√±a 349-399
+ SQL: update inmuebles set latitud='-29.4231071', longitud='-66.8521251', direccion_google='EspaÒa 349-399', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131647;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 12:02:52,sss:187,sss:131599,sss:-29.4223392,sss:-66.8275611,sss:Malvinas Argentinas 1588
+ SQL: update inmuebles set latitud='-29.4223392', longitud='-66.8275611', direccion_google='Malvinas Argentinas 1588', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131599;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 13:54:37,sss:187,sss:132451,sss:-29.4158506,sss:-66.8575676,sss:San Mart√≠n 181
+ SQL: update inmuebles set latitud='-29.4158506', longitud='-66.8575676', direccion_google='San MartÌn 181', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132451;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 14:16:27,sss:187,sss:132195,sss:-29.4119226,sss:-66.8594689,sss:Catamarca 99-199
+ SQL: update inmuebles set latitud='-29.4119226', longitud='-66.8594689', direccion_google='Catamarca 99-199', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132195;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 14:28:20,sss:187,sss:131577,sss:-29.4164855,sss:-66.8502682,sss:G√ºemes 200-298
+ SQL: update inmuebles set latitud='-29.4164855', longitud='-66.8502682', direccion_google='G¸emes 200-298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131577;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 14:28:55,sss:187,sss:131577,sss:-29.4165332,sss:-66.850229,sss:G√ºemes 200-298
+ SQL: update inmuebles set latitud='-29.4165332', longitud='-66.850229', direccion_google='G¸emes 200-298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131577;
+ RESULTADO: 1
+
+
+ abierto06-04-2018 15:10:50,sss:187,sss:132245,sss:-29.4181947,sss:-66.8479909,sss:Republic de Siria 149
+ SQL: update inmuebles set latitud='-29.4181947', longitud='-66.8479909', direccion_google='Republic de Siria 149', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132245;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 13:28:30,sss:187,sss:131634,sss:-29.4371345,sss:-66.8717663,sss:Los Condores 1800-1898
+ SQL: update inmuebles set latitud='-29.4371345', longitud='-66.8717663', direccion_google='Los Condores 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131634;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 13:44:12,sss:187,sss:129459,sss:-29.439671,sss:-66.8644957,sss:Apostol Bartolom√©
+ SQL: update inmuebles set latitud='-29.439671', longitud='-66.8644957', direccion_google='Apostol BartolomÈ', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129459;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 13:44:39,sss:187,sss:129459,sss:-29.4396789,sss:-66.8644715,sss:Apostol Bartolom√©
+ SQL: update inmuebles set latitud='-29.4396789', longitud='-66.8644715', direccion_google='Apostol BartolomÈ', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129459;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 14:09:47,sss:187,sss:129558,sss:-29.4388298,sss:-66.8641248,sss:Apostol Bartolom√©
+ SQL: update inmuebles set latitud='-29.4388298', longitud='-66.8641248', direccion_google='Apostol BartolomÈ', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129558;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 14:16:02,sss:187,sss:129558,sss:-29.4390263,sss:-66.8643395,sss:Apostol Bartolom√©
+ SQL: update inmuebles set latitud='-29.4390263', longitud='-66.8643395', direccion_google='Apostol BartolomÈ', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=129558;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 14:45:43,sss:187,sss:128429,sss:-29.4684549,sss:-66.8792897,sss:Homero Montes
+ SQL: update inmuebles set latitud='-29.4684549', longitud='-66.8792897', direccion_google='Homero Montes', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=128429;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 14:55:42,sss:187,sss:131609,sss:-29.4682343,sss:-66.8793481,sss:Homero Montes
+ SQL: update inmuebles set latitud='-29.4682343', longitud='-66.8793481', direccion_google='Homero Montes', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131609;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 14:56:39,sss:187,sss:131609,sss:-29.4684549,sss:-66.8792897,sss:Homero Montes
+ SQL: update inmuebles set latitud='-29.4684549', longitud='-66.8792897', direccion_google='Homero Montes', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131609;
+ RESULTADO: 1
+
+
+ abierto09-04-2018 15:16:27,sss:187,sss:131637,sss:-29.4409624,sss:-66.8534635,sss:Artigas
+ SQL: update inmuebles set latitud='-29.4409624', longitud='-66.8534635', direccion_google='Artigas', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131637;
+ RESULTADO: 1
+
+
+ abierto10-04-2018 11:12:06,sss:187,sss:131685,sss:-29.4356945,sss:-66.8567703,sss:Emilio Huniken 2050-2098
+ SQL: update inmuebles set latitud='-29.4356945', longitud='-66.8567703', direccion_google='Emilio Huniken 2050-2098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131685;
+ RESULTADO: 1
+
+
+ abierto10-04-2018 11:35:14,sss:187,sss:131696,sss:-29.450916,sss:-66.8611819,sss:Pichana
+ SQL: update inmuebles set latitud='-29.450916', longitud='-66.8611819', direccion_google='Pichana', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131696;
+ RESULTADO: 1
+
+
+ abierto10-04-2018 12:15:42,sss:187,sss:132527,sss:-29.4395231,sss:-66.8714432,sss:Las Virreinas 1799-1899
+ SQL: update inmuebles set latitud='-29.4395231', longitud='-66.8714432', direccion_google='Las Virreinas 1799-1899', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132527;
+ RESULTADO: 1
+
+
+ abierto10-04-2018 12:41:18,sss:187,sss:132527,sss:-29.4367126,sss:-66.8724065,sss:Soberania Nacional 1899-1999
+ SQL: update inmuebles set latitud='-29.4367126', longitud='-66.8724065', direccion_google='Soberania Nacional 1899-1999', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132527;
+ RESULTADO: 1
+
+
+ abierto10-04-2018 12:41:59,sss:187,sss:132527,sss:-29.4367098,sss:-66.8725207,sss:Soberania Nacional 1899-1999
+ SQL: update inmuebles set latitud='-29.4367098', longitud='-66.8725207', direccion_google='Soberania Nacional 1899-1999', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132527;
+ RESULTADO: 1
+
+
+ abierto11-04-2018 14:36:33,sss:187,sss:125761,sss:-29.3949851,sss:-66.8452174,sss:Jorge Newbery 200-298
+ SQL: update inmuebles set latitud='-29.3949851', longitud='-66.8452174', direccion_google='Jorge Newbery 200-298', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=125761;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 12:59:25,sss:187,sss:131646,sss:-29.4210501,sss:-66.8333142,sss:Capdevilla 799-849
+ SQL: update inmuebles set latitud='-29.4210501', longitud='-66.8333142', direccion_google='Capdevilla 799-849', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131646;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 13:31:25,sss:187,sss:131648,sss:-29.4228593,sss:-66.8436095,sss:Fernando Moreno 705-749
+ SQL: update inmuebles set latitud='-29.4228593', longitud='-66.8436095', direccion_google='Fernando Moreno 705-749', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131648;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 13:56:41,sss:187,sss:131741,sss:-29.4224598,sss:-66.8284003,sss:Malvinas Argentinas 1516
+ SQL: update inmuebles set latitud='-29.4224598', longitud='-66.8284003', direccion_google='Malvinas Argentinas 1516', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131741;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 14:19:50,sss:187,sss:131944,sss:-29.4384342,sss:-66.8645756,sss:Apostol Bartolom√©
+ SQL: update inmuebles set latitud='-29.4384342', longitud='-66.8645756', direccion_google='Apostol BartolomÈ', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131944;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 14:54:39,sss:187,sss:131948,sss:-29.4395568,sss:-66.8667937,sss:Apostol Santiago El Menor 2299-2365
+ SQL: update inmuebles set latitud='-29.4395568', longitud='-66.8667937', direccion_google='Apostol Santiago El Menor 2299-2365', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131948;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 15:04:53,sss:187,sss:132842,sss:-29.4378958,sss:-66.8674228,sss:Apostol Sim√≥n 2100-2198
+ SQL: update inmuebles set latitud='-29.4378958', longitud='-66.8674228', direccion_google='Apostol SimÛn 2100-2198', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132842;
+ RESULTADO: 1
+
+
+ abierto12-04-2018 15:18:16,sss:187,sss:132910,sss:-29.43424,sss:-66.8638931,sss:Apostol Andr√©s 1800-1898
+ SQL: update inmuebles set latitud='-29.43424', longitud='-66.8638931', direccion_google='Apostol AndrÈs 1800-1898', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132910;
+ RESULTADO: 1
+
+
+ abierto13-04-2018 12:33:03,sss:187,sss:131800,sss:-29.4196944,sss:-66.8701066,sss:Roque Luna 45
+ SQL: update inmuebles set latitud='-29.4196944', longitud='-66.8701066', direccion_google='Roque Luna 45', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131800;
+ RESULTADO: 1
+
+
+ abierto13-04-2018 15:06:34,sss:187,sss:131524,sss:-29.3921223,sss:-66.8522215,sss:Vigen del Rosario 1100-1160
+ SQL: update inmuebles set latitud='-29.3921223', longitud='-66.8522215', direccion_google='Vigen del Rosario 1100-1160', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131524;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 11:17:18,sss:187,sss:131819,sss:-29.4169411,sss:-66.8332906,sss:Artemio Moreno 800-848
+ SQL: update inmuebles set latitud='-29.4169411', longitud='-66.8332906', direccion_google='Artemio Moreno 800-848', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131819;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 12:22:50,sss:187,sss:132621,sss:-29.4122426,sss:-66.8272646,sss:Villa Castelli Sur 149-199
+ SQL: update inmuebles set latitud='-29.4122426', longitud='-66.8272646', direccion_google='Villa Castelli Sur 149-199', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132621;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 12:46:08,sss:187,sss:131881,sss:-29.4152996,sss:-66.8333732,sss:Ascasubi 799-853
+ SQL: update inmuebles set latitud='-29.4152996', longitud='-66.8333732', direccion_google='Ascasubi 799-853', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131881;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 13:12:06,sss:187,sss:132546,sss:-29.4230144,sss:-66.8436324,sss:Fernando Moreno 749-799
+ SQL: update inmuebles set latitud='-29.4230144', longitud='-66.8436324', direccion_google='Fernando Moreno 749-799', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132546;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 13:42:13,sss:187,sss:131688,sss:-29.4261057,sss:-66.8439916,sss:Calle Pueyrredon
+ SQL: update inmuebles set latitud='-29.4261057', longitud='-66.8439916', direccion_google='Calle Pueyrredon', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131688;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 14:10:55,sss:187,sss:131856,sss:-29.4289954,sss:-66.8609201,sss:Calle El Cano
+ SQL: update inmuebles set latitud='-29.4289954', longitud='-66.8609201', direccion_google='Calle El Cano', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131856;
+ RESULTADO: 1
+
+
+ abierto16-04-2018 14:33:04,sss:187,sss:131730,sss:-29.4194788,sss:-66.8619411,sss:Castro Barros 1040
+ SQL: update inmuebles set latitud='-29.4194788', longitud='-66.8619411', direccion_google='Castro Barros 1040', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131730;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 12:11:11,sss:187,sss:132134,sss:-29.4153806,sss:-66.8678666,sss:Rivadavia 1450-1498
+ SQL: update inmuebles set latitud='-29.4153806', longitud='-66.8678666', direccion_google='Rivadavia 1450-1498', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132134;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 12:39:36,sss:187,sss:132246,sss:-29.4222711,sss:-66.8660185,sss:Av. Dr. Luis de la Fuente
+ SQL: update inmuebles set latitud='-29.4222711', longitud='-66.8660185', direccion_google='Av. Dr. Luis de la Fuente', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132246;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 13:20:05,sss:187,sss:133325,sss:-29.4158208,sss:-66.8694012,sss:Rivadavia 1550-1574
+ SQL: update inmuebles set latitud='-29.4158208', longitud='-66.8694012', direccion_google='Rivadavia 1550-1574', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=133325;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 13:42:42,sss:187,sss:132772,sss:-29.4320254,sss:-66.8744944,sss:Carlos Gardel 1832
+ SQL: update inmuebles set latitud='-29.4320254', longitud='-66.8744944', direccion_google='Carlos Gardel 1832', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132772;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 13:43:29,sss:187,sss:132772,sss:-29.4320175,sss:-66.8744483,sss:Carlos Gardel 1832
+ SQL: update inmuebles set latitud='-29.4320175', longitud='-66.8744483', direccion_google='Carlos Gardel 1832', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132772;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 14:16:59,sss:187,sss:131656,sss:-29.4338881,sss:-66.8430293,sss:Lago Argentino
+ SQL: update inmuebles set latitud='-29.4338881', longitud='-66.8430293', direccion_google='Lago Argentino', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131656;
+ RESULTADO: 1
+
+
+ abierto17-04-2018 14:58:00,sss:187,sss:131826,sss:-29.3915567,sss:-66.8374496,sss:Tehuelches 799-899
+ SQL: update inmuebles set latitud='-29.3915567', longitud='-66.8374496', direccion_google='Tehuelches 799-899', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131826;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 11:27:20,sss:187,sss:8329,sss:-29.4377663,sss:-66.8467856,sss:Calle Moreau de Justo Alicia 176
+ SQL: update inmuebles set latitud='-29.4377663', longitud='-66.8467856', direccion_google='Calle Moreau de Justo Alicia 176', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=8329;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 11:43:56,sss:187,sss:132958,sss:-29.4225215,sss:-66.840688,sss:Echeverr√≠a 300-398
+ SQL: update inmuebles set latitud='-29.4225215', longitud='-66.840688', direccion_google='EcheverrÌa 300-398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132958;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 11:44:29,sss:187,sss:132958,sss:-29.4225249,sss:-66.840681,sss:Echeverr√≠a 300-398
+ SQL: update inmuebles set latitud='-29.4225249', longitud='-66.840681', direccion_google='EcheverrÌa 300-398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132958;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 12:25:27,sss:187,sss:44785,sss:-29.4217676,sss:-66.8432231,sss:Mosconi 199-299
+ SQL: update inmuebles set latitud='-29.4217676', longitud='-66.8432231', direccion_google='Mosconi 199-299', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=44785;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 12:45:00,sss:187,sss:131687,sss:-29.4225643,sss:-66.8354364,sss:Anillaco
+ SQL: update inmuebles set latitud='-29.4225643', longitud='-66.8354364', direccion_google='Anillaco', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131687;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 13:39:27,sss:187,sss:131843,sss:-29.4103669,sss:-66.8430941,sss:Nicol√°s Davila 99-171
+ SQL: update inmuebles set latitud='-29.4103669', longitud='-66.8430941', direccion_google='Nicol·s Davila 99-171', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131843;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 14:13:37,sss:187,sss:133281,sss:-29.4025657,sss:-66.8503921,sss:Calle Nicaragua 850-896
+ SQL: update inmuebles set latitud='-29.4025657', longitud='-66.8503921', direccion_google='Calle Nicaragua 850-896', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=133281;
+ RESULTADO: 1
+
+
+ abierto18-04-2018 14:41:03,sss:187,sss:131954,sss:-29.4026619,sss:-66.8504332,sss:Calle Nicaragua 850-896
+ SQL: update inmuebles set latitud='-29.4026619', longitud='-66.8504332', direccion_google='Calle Nicaragua 850-896', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131954;
+ RESULTADO: 1
+
+
+ abierto19-04-2018 13:38:11,sss:187,sss:131861,sss:-29.4254686,sss:-66.8571663,sss:Libertad 899-949
+ SQL: update inmuebles set latitud='-29.4254686', longitud='-66.8571663', direccion_google='Libertad 899-949', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131861;
+ RESULTADO: 1
+
+
+ abierto19-04-2018 14:20:07,sss:187,sss:131924,sss:-29.420791,sss:-66.8469481,sss:Carlos Quiroga 28
+ SQL: update inmuebles set latitud='-29.420791', longitud='-66.8469481', direccion_google='Carlos Quiroga 28', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131924;
+ RESULTADO: 1
+
+
+ abierto19-04-2018 14:38:02,sss:187,sss:131888,sss:-29.4164111,sss:-66.8486232,sss:Av. Facundo Quiroga 295
+ SQL: update inmuebles set latitud='-29.4164111', longitud='-66.8486232', direccion_google='Av. Facundo Quiroga 295', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=131888;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 11:32:17,sss:187,sss:133225,sss:-29.4195761,sss:-66.8513571,sss:Corrientes 300-398
+ SQL: update inmuebles set latitud='-29.4195761', longitud='-66.8513571', direccion_google='Corrientes 300-398', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=133225;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 12:00:34,sss:187,sss:132022,sss:-29.426991,sss:-66.8560999,sss:French 1000-1098
+ SQL: update inmuebles set latitud='-29.426991', longitud='-66.8560999', direccion_google='French 1000-1098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132022;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 12:32:22,sss:187,sss:132370,sss:-29.4204435,sss:-66.8615858,sss:Calle Corrientes 1013
+ SQL: update inmuebles set latitud='-29.4204435', longitud='-66.8615858', direccion_google='Calle Corrientes 1013', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132370;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 13:41:15,sss:187,sss:111191,sss:-29.4458155,sss:-66.8633074,sss:Molle
+ SQL: update inmuebles set latitud='-29.4458155', longitud='-66.8633074', direccion_google='Molle', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=111191;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 14:39:42,sss:187,sss:132058,sss:-29.3959888,sss:-66.853757,sss:Del Carmen 1371
+ SQL: update inmuebles set latitud='-29.3959888', longitud='-66.853757', direccion_google='Del Carmen 1371', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132058;
+ RESULTADO: 1
+
+
+ abierto20-04-2018 15:01:50,sss:187,sss:133326,sss:-29.3942501,sss:-66.8538856,sss:Sta. Lucia 1149-1199
+ SQL: update inmuebles set latitud='-29.3942501', longitud='-66.8538856', direccion_google='Sta. Lucia 1149-1199', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=133326;
+ RESULTADO: 1
+
+
+ abierto23-04-2018 12:42:23,sss:187,sss:132114,sss:-29.4271403,sss:-66.8582361,sss:Beruti 1000-1098
+ SQL: update inmuebles set latitud='-29.4271403', longitud='-66.8582361', direccion_google='Beruti 1000-1098', id_usuario=187,app_ventana='APP_CEL_TECNICOS' from inmuebles i inner join conexiones c on c.id_inmueble=i.id_inmueble where c.id_conexion=132114;
+ RESULTADO: 1

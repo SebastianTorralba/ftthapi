@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+  <head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+
+    <title></title>
+    <link href="{{ asset("assets/css/app.min.css") }}" rel="stylesheet">
+    <link href="{{ asset("assets/css/red.min.css") }}" rel="stylesheet">
+    <link href="{{ asset("assets/css/red.min.css") }}" rel="stylesheet">
+    <link href="{{ asset("assets/css/react-day-picker.css") }}" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_BBQRjJEuExnlqjbdMve543sr2u20ozE&v=3.exp&libraries=geometry,drawing,places,MarkerClusterer"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    
+  </head>
+
+
+  <body>
+
+    <script src="{{ asset("assets/js/app.js") }}"></script>
+    <div
+       class="app"
+       scheme="{{app.request.scheme}}"
+       host="{{app.request.host}}"
+       baseUrl="{{app.request.baseUrl}}"
+       pathInfo="{{app.request.pathInfo}}"
+       uri="{{app.request.uri}}"
+       usuarioHash="{{usuario_hash}}"
+       id="app"
+    ></div>
+    <script src="{{ asset("build/js/red/disenio.js") }}"></script>
+
+    <script>
+      $(function(){
+          $('[data-toggle="popover"]').popover({
+            "html":true
+          })
+      })
+    </script>
+  </body>
+</html>

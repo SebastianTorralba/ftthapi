@@ -1,0 +1,55 @@
+{% extends 'sistema/base.html.twig' %}
+
+{% block body %}
+
+     {{ form_errors(form) }}
+    
+    {% set flashBagSubscripcionOk = app.session.flashbag.get('subscripcion-ok') %}
+    
+    {% if flashBagSubscripcionOk is not empty %}
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>            
+            <h3 class="text-center">
+                La subscripción se realizo correctamente!!
+            </h3>
+        </div>        
+    {% endif %}
+    
+    <div class="anv alg ala">
+      <h3 class="anw anx">Ingrese datos del cliente</h3>
+    </div>
+
+    <form novalidate method="POST" action="{{ path('preventa_producto', {usuario_hash: usuario.hash}) }}">
+        
+        {% include 'sistema/preventa/_form_persona.html.twig' %}
+        
+        <div class="anv alg ala">
+            <h3 class="anw anx">Seleccione los productos en los que esta interesado</h3>
+        </div>
+        
+        {% include 'sistema/preventa/_form_productos.html.twig' %}                
+
+        <div class="anv alg ala">
+          <h3 class="anw anx">¿Cuales de estos medios podría utilizar como forma de pago?</h3>
+        </div>         
+        <p style="margin-top: -20px;" class="text-center">(El monto total de la compra se podrá dividir en más de una forma de pago)</p>         
+
+        {% include 'sistema/preventa/_form_medios.html.twig' %}
+        
+        <hr>
+        <div class="row">
+            <div class="col-xs-12">
+                <button type="submit" class="btn" style="display: block; width: 280px; margin: 0 auto;" >REALIZAR PRESUBSCRIPCIÓN</button>                
+            </div>
+        </div>
+        
+         {{ form_widget(form._token) }}
+     </form>                     
+         
+            
+         
+{% endblock %}
+
+{% block script %}{% endblock script %}

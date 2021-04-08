@@ -1,0 +1,17 @@
+{
+  "opciones": [
+  {
+    "id": "imprimir",
+    "label": "Imprimir",
+    "icon": "Imprimir",
+    "params":{}
+  }
+],
+"default": "",
+"clear": {
+    "id": "",
+    "label": "",
+    "icon": "",
+    "params":{}
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{#    <script>
+
+        function isIE () {
+          var myNav = navigator.userAgent.toLowerCase();
+          return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+        }
+
+        if (isIE () && isIE () < 9) {
+            alert("Por favor, actualice su versión de Internet Explore y luego vuelva a intentar");
+            location.href='http://windows.microsoft.com/es-ar/internet-explorer/download-ie';
+        }
+
+    </script>  #}
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0ltBbgLWM4jf9tVmf_-f9lHzg0-cmw4Q"></script>
+
+    <link rel="icon" href="../../favicon.ico">
+    <title></title>
+    <link href="{{ asset("assets/css/app.min.css") }}" rel="stylesheet">
+
+    <style>
+
+      html,body{
+          width:100%;
+          height: 100%;
+      }
+
+      .app{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      .app-contenedor{
+        float:left;
+        height: 100%;
+        width: 100%;
+      }
+
+      .cargando{
+          position:absolute;
+          bottom:5%;
+          left:45%;
+          font-size: 12px;
+          background-color: #000;
+          color:#fff;
+          padding: 15px;
+          z-index:100;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div  class="app" id="oca-control-georeferencia" data-href="{{ href }}"></div>
+    <script src="{{ asset("build/js/utilidad/google-map/oca-control-georeferencia.js") }}"></script>
+
+  </body>
+</html>

@@ -1,0 +1,349 @@
+
+17-07-2017 15:42****ID:531037178*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 1
+SI CUPON DE PAGO 1
+CUPON DE PAGO ABIERTO
+TERMINO OK
+26-07-2017 20:05****ID:536196253*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 2
+SI CUPON DE PAGO 2
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-08-2017 21:50****ID:539358979*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 6
+SI CUPON DE PAGO 6
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 13:32****ID:539666024*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 8
+SI CUPON DE PAGO 8
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 18:30****ID:539866447*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 18:30****ID:2893084711*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2893084711, ESTADO:rejected, MONTO:22656
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+02-08-2017 18:30****ID:539866447*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2893084711, ESTADO:rejected, MONTO:22656
+CUPON DE PAGO CERRADO
+TERMINO OK
+02-08-2017 19:17****ID:539906213*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 8
+SI CUPON DE PAGO 8
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 19:17****ID:539893056*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 8
+SI CUPON DE PAGO 8
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 20:27****ID:539939074*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 8
+SI CUPON DE PAGO 8
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 20:30****ID:539950670*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 8
+SI CUPON DE PAGO 8
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 21:01****ID:539946289*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 10
+SI CUPON DE PAGO 10
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-08-2017 21:51****ID:539988255*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 6
+SI CUPON DE PAGO 6
+CUPON DE PAGO ABIERTO
+TERMINO OK
+03-08-2017 11:31****ID:540221016*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 11
+SI CUPON DE PAGO 11
+CUPON DE PAGO ABIERTO
+TERMINO OK
+03-08-2017 11:33****ID:2894073527*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 11
+SI CUPON DE PAGO 11
+PAGO ID:2894073527, ESTADO:approved, MONTO:29456
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+03-08-2017 11:33****ID:540221016*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 11
+SI CUPON DE PAGO 11
+PAGO ID:2894073527, ESTADO:approved, MONTO:29456
+CUPON DE PAGO CERRADO
+TERMINO OK
+03-08-2017 14:05****ID:540321094*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 6
+SI CUPON DE PAGO 6
+CUPON DE PAGO ABIERTO
+TERMINO OK
+04-08-2017 08:52****ID:540688254*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 6
+SI CUPON DE PAGO 6
+CUPON DE PAGO ABIERTO
+TERMINO OK
+09-08-2017 20:08****ID:543860429*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 15
+SI CUPON DE PAGO 15
+CUPON DE PAGO ABIERTO
+TERMINO OK
+11-08-2017 15:35****ID:544957519*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 16
+SI CUPON DE PAGO 16
+CUPON DE PAGO ABIERTO
+TERMINO OK
+11-08-2017 15:44****ID:2913751628*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 16
+SI CUPON DE PAGO 16
+PAGO ID:2913751628, ESTADO:approved, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+11-08-2017 15:44****ID:544957519*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 16
+SI CUPON DE PAGO 16
+PAGO ID:2913751628, ESTADO:approved, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+12-08-2017 13:37****ID:545365118*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 16
+SI CUPON DE PAGO 16
+CUPON DE PAGO ABIERTO
+TERMINO OK
+13-08-2017 10:12****ID:545676852*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 18
+SI CUPON DE PAGO 18
+CUPON DE PAGO ABIERTO
+TERMINO OK
+14-08-2017 01:39****ID:546008406*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 17
+SI CUPON DE PAGO 17
+CUPON DE PAGO ABIERTO
+TERMINO OK
+18-08-2017 18:49****ID:548904024*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 20
+SI CUPON DE PAGO 20
+CUPON DE PAGO ABIERTO
+TERMINO OK
+19-08-2017 11:27****ID:549161771*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 19
+SI CUPON DE PAGO 19
+CUPON DE PAGO ABIERTO
+TERMINO OK
+22-08-2017 11:21****ID:550451378*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 21
+SI CUPON DE PAGO 21
+CUPON DE PAGO ABIERTO
+TERMINO OK
+22-08-2017 11:23****ID:2936716150*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 21
+SI CUPON DE PAGO 21
+PAGO ID:2936716150, ESTADO:approved, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+22-08-2017 11:23****ID:550451378*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 21
+SI CUPON DE PAGO 21
+PAGO ID:2936716150, ESTADO:approved, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+23-08-2017 16:07****ID:551262837*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 22
+SI CUPON DE PAGO 22
+CUPON DE PAGO ABIERTO
+TERMINO OK
+24-08-2017 10:21****ID:551661101*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 22
+SI CUPON DE PAGO 22
+CUPON DE PAGO ABIERTO
+TERMINO OK
+25-08-2017 10:46****ID:552256988*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 23
+SI CUPON DE PAGO 23
+CUPON DE PAGO ABIERTO
+TERMINO OK
+30-08-2017 15:03****ID:554917859*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 25
+SI CUPON DE PAGO 25
+CUPON DE PAGO ABIERTO
+TERMINO OK
+30-08-2017 18:11****ID:555036361*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 24
+SI CUPON DE PAGO 24
+CUPON DE PAGO ABIERTO
+TERMINO OK
+30-08-2017 18:36****ID:2955783836*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 24
+SI CUPON DE PAGO 24
+PAGO ID:2955783836, ESTADO:approved, MONTO:6800
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+30-08-2017 18:36****ID:555036361*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 24
+SI CUPON DE PAGO 24
+PAGO ID:2955783836, ESTADO:approved, MONTO:6800
+CUPON DE PAGO CERRADO
+TERMINO OK
+31-08-2017 15:50****ID:555500277*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 26
+SI CUPON DE PAGO 26
+CUPON DE PAGO ABIERTO
+TERMINO OK
+01-09-2017 20:22****ID:556191974*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 27
+SI CUPON DE PAGO 27
+CUPON DE PAGO ABIERTO
+TERMINO OK
+02-09-2017 18:30****ID:2893084711*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2893084711, ESTADO:cancelled, MONTO:22656
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+02-09-2017 18:30****ID:539866447*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 4
+SI CUPON DE PAGO 4
+PAGO ID:2893084711, ESTADO:cancelled, MONTO:22656
+CUPON DE PAGO CERRADO
+TERMINO OK
+05-09-2017 20:06****ID:558091737*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 28
+SI CUPON DE PAGO 28
+CUPON DE PAGO ABIERTO
+TERMINO OK
+06-09-2017 09:32****ID:558312881*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 29
+SI CUPON DE PAGO 29
+CUPON DE PAGO ABIERTO
+TERMINO OK
+14-10-2017 11:57****ID:579776041*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 40
+SI CUPON DE PAGO 40
+CUPON DE PAGO ABIERTO
+TERMINO OK
+14-10-2017 12:01****ID:3056389410*****TOPIC:payment****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 40
+SI CUPON DE PAGO 40
+PAGO ID:3056389410, ESTADO:rejected, MONTO:6120
+NUEVO MOVIMIENTO
+CUPON DE PAGO CERRADO
+TERMINO OK
+14-10-2017 12:01****ID:0*****TOPIC: ****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+TERMINO OK
+14-10-2017 12:01****ID:579776041*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 40
+SI CUPON DE PAGO 40
+PAGO ID:3056389410, ESTADO:rejected, MONTO:6120
+CUPON DE PAGO CERRADO
+TERMINO OK
+24-10-2017 10:43****ID:585259256*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 41
+SI CUPON DE PAGO 41
+CUPON DE PAGO ABIERTO
+TERMINO OK
+25-10-2017 16:03****ID:586142795*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 42
+SI CUPON DE PAGO 42
+CUPON DE PAGO ABIERTO
+TERMINO OK
+25-10-2017 16:04****ID:586133882*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 42
+SI CUPON DE PAGO 42
+CUPON DE PAGO ABIERTO
+TERMINO OK
+27-10-2017 15:57****ID:587498857*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 42
+SI CUPON DE PAGO 42
+CUPON DE PAGO ABIERTO
+TERMINO OK
+27-10-2017 15:57****ID:587477152*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 42
+SI CUPON DE PAGO 42
+CUPON DE PAGO ABIERTO
+TERMINO OK
+04-11-2017 14:32****ID:593880331*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 41
+SI CUPON DE PAGO 41
+CUPON DE PAGO ABIERTO
+TERMINO OK
+15-02-2018 01:52****ID:659122272*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 43
+SI CUPON DE PAGO 43
+CUPON DE PAGO ABIERTO
+TERMINO OK
+15-02-2018 17:35****ID:659619068*****TOPIC:merchant_order****ENTORNO:produccion_***Credenciales:7309195889025220 - j13E0fdr6C9UudiaUfuUn2A2l4h8EY4q*********************************************
+
+BUSCANDO CUPON DE PAGO 44
+SI CUPON DE PAGO 44
+CUPON DE PAGO ABIERTO
+TERMINO OK

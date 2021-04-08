@@ -1,0 +1,10 @@
+{
+    "name": "symfony-application",
+    "dependencies": {
+        "jquery": "1.11.*",
+        "bootstrap": "4.0.0-alpha",
+        "font-awesome": "4.4.*",
+	"jquery-ui": "1.11.*",
+        "tether": "1.1.0"
+    }
+}

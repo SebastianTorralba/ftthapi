@@ -1,0 +1,41 @@
+<div class="row">
+    {% set field = form.dni %}
+    <div class="col-xs-12 col-md-4" style="margin-bottom: 10px;">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "DNI, ej: 30418026" } }) }}
+        {{ form_errors(field) }}
+    </div>                    
+    {% set field = form.nombre %}
+    <div class="col-xs-12 col-md-4" style="margin-bottom: 10px;">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "Nombre, ej: Juan Pérez" } }) }}
+        {{ form_errors(field) }}
+    </div>
+
+    {% set field = form.telefono %}
+    <div class="col-xs-12 col-md-4" style="margin-bottom: 10px;">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "Teléfono, ej: 3804631529" } }) }}
+        {{ form_errors(field) }}
+    </div>
+</div>
+
+<div class="row">
+    {% set field = form.email %}
+    <div class="col-xs-12 col-md-4" style="margin-bottom: 10px;">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "Email, ej: juan@gmail.com" } }) }}
+        {{ form_errors(field) }}
+    </div>     
+    {% set field = form.direccion %}
+    <div class="col-xs-12 col-md-8">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "Dirección, ej: Av Facundo Quiroga 947 - Capital" } }) }}
+        {{ form_errors(field) }}
+    </div>
+</div>
+<br>
+
+<div class="row">
+    {% set field = form.observacion %}
+    <div class="col-xs-12 col-md-12">
+        {{ form_widget(field, { attr: { class: 'form-control', placeholder: "Observación (este campo es opcional)" } }) }}
+        {{ form_errors(field) }}
+    </div>
+</div>
+<br>

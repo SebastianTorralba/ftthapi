@@ -1,0 +1,356 @@
+<div class="row">
+    <div class="col-xs-6">
+        <div class="card" >
+            <table class="table">
+                <thead>
+                    <tr style="background-color: #0A4E99; color:#fff;">
+                        <th width="120">
+                            Cant.
+                        </th>
+                        <th>
+                            Producto
+                        </th>                                
+                    </tr>
+                </thead>
+                <tbody>                                              
+                    <tr style="background-color: #c6e2ff;">
+                        <td>
+                            <select name="producto-tv-32">
+                                {% for i in 0..10 %}
+                                    <option value="{{ i }}">{{ i }} {% if loop.last %} o + {% endif %}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>
+                            <h5>TV LED HD 32" SMART ANDROID 4.4</h5>
+                        </td>                                
+                    </tr>               
+                    <tr style="background-color: #f0f0f0; color:#222;">
+                        <th colspan="2">
+                            <div class="row">
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Lista</div>
+                                    <div style="font-size: 22px; text-decoration: line-through;">$  {{ productosDetalle[32].precioLista|number_format(0, '.', ',') }}</div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Descuento</div>
+                                    <div style="font-size: 22px;"> {{ productosDetalle[32].dctoLista|number_format(0, '.', ',') }} % </div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Oferta</div>
+                                    <div style="font-size: 22px;">$  {{ productosDetalle[32].monto|number_format(0, '.', ',') }}</div>
+                                </div>                                                                
+                            </div>
+                        </th>                                
+                    </tr>                       
+                    <tr>
+                        <td colspan="2" style="padding: 0;">                            
+                            <table width="100%" class="table">
+                                <tr>
+                                    <th width="200">Panel</th>
+                                    <td>LG HD 32" Clase "A+"</td>                                        
+                                </tr>
+                                <tr>
+                                    <th>Sistema Operativo</th>
+                                    <td>Android KitKat 4.4</td>                                        
+                                </tr>                                
+                                <tr>
+                                    <th>Internet</th>
+                                    <td>RJ45 LAN connection, Built-in WIFI module, built-in Antenna, Wireless 802.11b/g/n</td>                                        
+                                </tr>       
+                                <tr>
+                                    <th>Conectores</th>
+                                    <td>HDMI, USB, VGA, AVD</td>
+                                </tr>                                
+                            </table>                            
+                        </td>                                
+                    </tr>                       
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="card" >
+            <table class="table">
+                <thead>
+                    <tr style="background-color: #0A4E99; color:#fff;">
+                        <th width="120">
+                            Cant.
+                        </th>
+                        <th>
+                            Producto
+                        </th>                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #c6e2ff;">
+                        <td>
+                            <select name="producto-tv-50">
+                                {% for i in 0..10 %}
+                                    <option value="{{ i }}">{{ i }} {% if loop.last %} o + {% endif %}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>
+                            <h5>TV LED 4K HD 50" SMART</h5>
+                        </td>                                
+                    </tr>
+                    <tr style="background-color: #f0f0f0; color:#222;">
+                        <th colspan="2">
+                            <div class="row">
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Lista</div>
+                                    <div style="font-size: 22px; text-decoration: line-through;">$  {{ productosDetalle[50].precioLista|number_format(0, '.', ',') }}</div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Descuento</div>
+                                    <div style="font-size: 22px;"> {{ productosDetalle[50].dctoLista|number_format(0, '.', ',') }} % </div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Oferta</div>
+                                    <div style="font-size: 22px;">$  {{ productosDetalle[50].monto|number_format(0, '.', ',') }}</div>
+                                </div>                                                                
+                            </div>
+                        </th>                                
+                    </tr>                     
+                    <tr>
+                        <td colspan="2" style="padding: 0;">                            
+                            <table width="100%" class="table">
+                                <tr>
+                                    <th width="200">Panel</th>
+                                    <td>--</td>                                        
+                                </tr>
+                                <tr>
+                                    <th>Sistema Operativo</th>
+                                    <td>--</td>                                        
+                                </tr>                                
+                                <tr>
+                                    <th>Internet</th>
+                                    <td>--<br>&nbsp;<br>&nbsp;<br>&nbsp;</td>                                        
+                                </tr>       
+                                <tr>
+                                    <th>Conectores</th>
+                                    <td>--</td>
+                                </tr>                                
+                            </table>                            
+                        </td>                                
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>                               
+<div class="row">
+    <div class="col-xs-6">
+        <div class="card" >
+            <table class="table">
+                <thead>
+                    <tr style="background-color: #0A4E99; color:#fff;">
+                        <th width="120">
+                            Cant.
+                        </th>
+                        <th>
+                            Producto
+                        </th>                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #c6e2ff;">
+                        <td>
+                            <select name="producto-tv-55">
+                                {% for i in 0..10 %}
+                                    <option value="{{ i }}">{{ i }} {% if loop.last %} o + {% endif %}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>
+                            <h5>TV LED 4K HD 55" SMART ANDROID 4.4</h5>
+                        </td>                                
+                    </tr>
+                    <tr style="background-color: #f0f0f0; color:#222;">
+                        <th colspan="2">
+                            <div class="row">
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Lista</div>
+                                    <div style="font-size: 22px; text-decoration: line-through;">$  {{ productosDetalle[55].precioLista|number_format(0, '.', ',') }}</div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Descuento</div>
+                                    <div style="font-size: 22px;"> {{ productosDetalle[55].dctoLista|number_format(0, '.', ',') }} % </div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Oferta</div>
+                                    <div style="font-size: 22px;">$  {{ productosDetalle[55].monto|number_format(0, '.', ',') }}</div>
+                                </div>                                                                
+                            </div>
+                        </th>                                
+                    </tr>                     
+                    <tr>
+                        <td colspan="2" style="padding: 0;">                            
+                            <table width="100%" class="table">
+                                <tr>
+                                    <th width="200">Panel</th>
+                                    <td>LG 4K 55" Clase "A+"</td>                                        
+                                </tr>
+                                <tr>
+                                    <th>Sistema Operativo</th>
+                                    <td>Android KitKat 4.4</td>                                        
+                                </tr>                                
+                                <tr>
+                                    <th>Internet</th>
+                                    <td>RJ45 LAN connection, Built-in WIFI module, built-in Antenna, Wireless 802.11b/g/n</td>                                        
+                                </tr>       
+                                <tr>
+                                    <th>Conectores</th>
+                                    <td>HDMI, USB, VGA, AVD, PC audio</td>
+                                </tr>                                
+                            </table>                            
+                        </td>                                
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="card">
+            <table class="table">
+                <thead>
+                    <tr style="background-color: #0A4E99; color:#fff;">
+                        <th width="120">
+                            Cant.
+                        </th>
+                        <th>
+                            Producto
+                        </th>                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #c6e2ff;">
+                        <td>
+                            <select name="producto-tv-65">
+                                {% for i in 0..10 %}
+                                    <option value="{{ i }}">{{ i }} {% if loop.last %} o + {% endif %}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>
+                            <h5>TV LED 4K 65" SMART</h5>
+                        </td>                                
+                    </tr>
+                    <tr style="background-color: #f0f0f0; color:#222;">
+                        <th colspan="2">
+                            <div class="row">
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Lista</div>
+                                    <div style="font-size: 22px; text-decoration: line-through;">$  {{ productosDetalle[65].precioLista|number_format(0, '.', ',') }}</div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Descuento</div>
+                                    <div style="font-size: 22px;"> {{ productosDetalle[65].dctoLista|number_format(0, '.', ',') }} % </div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Oferta</div>
+                                    <div style="font-size: 22px;">$  {{ productosDetalle[65].monto|number_format(0, '.', ',') }}</div>
+                                </div>                                                                
+                            </div>
+                        </th>                                
+                    </tr>                     
+                    <tr>
+                        <td colspan="2" style="padding: 0;">                            
+                            <table width="100%" class="table">
+                                <tr>
+                                    <th width="200">Panel</th>
+                                    <td>--</td>                                        
+                                </tr>
+                                <tr>
+                                    <th>Sistema Operativo</th>
+                                    <td>--</td>                                        
+                                </tr>                                
+                                <tr>
+                                    <th>Internet</th>
+                                    <td>--<br>&nbsp;<br>&nbsp;<br>&nbsp;</td>                                        
+                                </tr>       
+                                <tr>
+                                    <th>Conectores</th>
+                                    <td>--</td>
+                                </tr>                                
+                            </table>                            
+                        </td>                                
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>                               
+<div class="row">                                
+    <div class="col-xs-6">
+        <div class="card" >
+            <table class="table">
+                <thead>
+                    <tr style="background-color: #0A4E99; color:#fff;">
+                        <th width="120">
+                            Cant.
+                        </th>
+                        <th>
+                            Producto
+                        </th>                                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: #c6e2ff;">
+                        <td>
+                            <select name="producto-tv-75">
+                                {% for i in 0..10 %}
+                                    <option value="{{ i }}">{{ i }} {% if loop.last %} o + {% endif %}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td>
+                            <h5>TV LED 4K HD 75" SMART</h5>
+                        </td>                                
+                    </tr>
+                    <tr style="background-color: #f0f0f0; color:#222;">
+                        <th colspan="2">
+                            <div class="row">
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Lista</div>
+                                    <div style="font-size: 22px; text-decoration: line-through;">$  {{ productosDetalle[75].precioLista|number_format(0, '.', ',') }}</div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Descuento</div>
+                                    <div style="font-size: 22px;"> {{ productosDetalle[75].dctoLista|number_format(0, '.', ',') }} % </div>
+                                </div>                                
+                                <div class="col-xs-4 text-center">
+                                    <div>Precio Oferta</div>
+                                    <div style="font-size: 22px;">$  {{ productosDetalle[75].monto|number_format(0, '.', ',') }}</div>
+                                </div>                                                                
+                            </div>
+                        </th>                                
+                    </tr>                     
+                    <tr>
+                        <td colspan="2" style="padding: 0;">                            
+                            <table width="100%" class="table">
+                                <tr>
+                                    <th width="200">Panel</th>
+                                    <td>--</td>                                        
+                                </tr>
+                                <tr>
+                                    <th>Sistema Operativo</th>
+                                    <td>--</td>                                        
+                                </tr>                                
+                                <tr>
+                                    <th>Internet</th>
+                                    <td>--</td>                                        
+                                </tr>       
+                                <tr>
+                                    <th>Conectores</th>
+                                    <td>--</td>
+                                </tr>                                
+                            </table>                            
+                        </td>                                
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+    </div>                            
+</div>

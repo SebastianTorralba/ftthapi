@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{#    <script>
+
+        function isIE () {
+          var myNav = navigator.userAgent.toLowerCase();
+          return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+        }            
+
+        if (isIE () && isIE () < 9) {
+            alert("Por favor, actualice su versión de Internet Explore y luego vuelva a intentar");
+            location.href='http://windows.microsoft.com/es-ar/internet-explorer/download-ie';
+        }            
+
+    </script>  #}  
+    
+    <link rel="icon" href="../../favicon.ico">    
+    <title></title>
+    <link href="{{ asset("assets/css/app.min.css") }}" rel="stylesheet">     
+    
+  </head>
+
+  <body>
+    <div id="map" style="background-color: #A5CADA; width: 100%; height: 600px;"></div>      
+    <input id="google-autocomplete" autocomplete="on" style="width:80%; margin-top: 3px; padding: 3px 6px; color: #000; font-size: 16px;" class="controls" type="text" placeholder="Buscar lugar">
+    <div id="aa" style="display:none; position:absolute; top: 700px; height: 100px; width: 100px; background-color: red;"></div>
+{#
+    <input id="direccion-sistema" value="" class="controls" type="hidden">
+    <input id="latitud" value="" type="hidden">
+    <input id="longitud" value="" type="hidden">#}
+    <input id="parametros" value="{{ parametros }}" type="hidden">    
+
+    <script src="{{ asset("assets/js/main.js") }}"></script>
+    <script>
+
+       
+        
+function initAutocomplete() {
+
+            var parametrosInput = document.getElementById('parametros');
+            var parametros = parametrosInput.value.split("@");
+            var direccionSistema = "";
+            var direccionGoogle = "";
+            var dire = "";
+            var auxiliar = "";
+            var direccionGoogleInput = document.getElementById("google-autocomplete");
+            var latitud = "";
+            var longitud = "";
+            var url = 'http://internetparatodos.com.ar/sistema-local/WEBSERVICE/WBNAPLVL1.php';
+            var sucursalId = "";
+            const api = new XMLHttpRequest();
+            const apiSucursal = new XMLHttpRequest();
+            var map = new google.maps.Map(document.getElementById('map'), {
+                            center: { lat: -29.412685, lng: -66.855974 },
+                            zoom: 16,
+                            mapTypeId: google.maps.MapTypeId.HYBRID
+
+                        });
+            console.log(parametros);
+
+            if (parametros.length == 5) {
+                direccionSistema = parametros[0];
+                direccionGoogle = parametros[3];
+                latitud = parametros[1];
+                longitud = parametros[2];
+                sucursalId = parametros[4];
+            }
+            else {
+                alert("No se pudo cargar dirección de inicio, error en el formato de parametros");
+            }
+
+            var markers = [];
+            var marcador = new google.maps.Marker({
+                map: map,
+                zoom: 16
+            });
+
+            document.title = '';
+            if (latitud == "" || longitud == "") {
+                var urlSucursal = "http://internetparatodos.com.ar/sistema-local/WEBSERVICE/WSCOORDENADASUCURSAL.php?sucId="+sucursalId;
+                apiSucursal.open('GET', urlSucursal, true);
+                apiSucursal.send();
+                apiSucursal.onreadystatechange = function () {
+                    if (this.status == 200 & this.readyState == 4) {
+                        let datos = JSON.parse(this.responseText);
+                        datos.forEach(function (item) {
+                            var suclatitud = item.latitud;
+                            var suclongitud = item.longitud;
+                            var latlon = new google.maps.LatLng(suclatitud, suclongitud);
+               map.setCenter(latlon);                 });
+                    } /*else {
+                       alert("fuera");
+                         map = new google.maps.Map(document.getElementById('map'), {
+                            center: { lat: -29.412685, lng: -66.855974 },
+                            zoom: 16,
+                            mapTypeId: google.maps.MapTypeId.HYBRID
+
+                        });
+                    }*/
+                }
+            }
+
+            //dibuja puntos desde le webservice
+            function dibujarmarkerEstaticos(location, iconoEstado, titulo) {
+                marcador = new google.maps.Marker({
+                    position: location,
+                    map: map,
+                    title: titulo,
+                    icon: iconoEstado
+                });
+            }
+
+            if (sucursalId == '1') {
+                api.open('GET', url, true);
+                api.send();
+                api.onreadystatechange = function () {
+                    if (this.status == 200 && this.readyState == 4) {
+                        let datos = JSON.parse(this.responseText);
+
+                        //for (let item of datos){
+                        datos.forEach(function (item) {
+                            let iconoEstado;
+                            let lat = item.latitud;
+                            let long = item.longitud;
+                            let estado = item.estado;
+                            if (
+                                estado == 'FUSIONADO') {
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_FUSIONADO_16.png';
+                            } else if (
+                                estado == 'PLANIFICADO') {
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_PLANIFICADO_16.png';
+                            } else if (estado == 'EN_OBRA') {
+                                estado = 'EN OBRA'
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_EN_OBRA_16.png';
+                            } else if (
+                                estado == 'INSTALADO') {
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_INSTALADO_16.png';
+                            } else if (
+                                estado == 'ILUMINADO') {
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_ILUMINADO_16.png';
+                            } else if (estado == 'EN_OBRA_CON_TAREA') {
+                                estado = 'EN OBRA CON TAREA'
+                                iconoEstado = '/sistema-local/uploads/imagenes/tipo-elemento/6_EN_OBRA_CON_TAREA_16.png';
+                            }
+                            var latLng = new google.maps.LatLng(lat, long);
+
+                            dibujarmarkerEstaticos(latLng, iconoEstado, estado);
+                        });
+
+
+                    }
+                }
+            }
+            //dibuja un punto
+            function dibujarmarker(location) {//creo un nuevo icono
+
+                //borro todo los iconos de los lugares
+                markers.forEach(function (marker) {
+
+                    marker.setMap(null)
+                });
+                var bounds = new google.maps.LatLngBounds();
+                bounds.extend(location);
+                map.fitBounds(bounds);
+                markers.push(new google.maps.Marker({
+                    map: map,
+                    position: location,
+                }));
+
+
+
+                // setTitlePage();
+            }
+
+
+            // sirve para obtener un lugar a partir de una latitud y longitud determinada
+            function getAddress(latLng) {
+
+                geocoder.geocode({ 'latLng': latLng },
+                    function (results, status) {
+
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            if (results[0]) {
+
+                                //console.log(results[0])
+
+                                var banderaNoRoute = 1;
+                                var banderaNoStreetNumber = 1;
+                                var banderaLaRioja = 1;
+                                var banderaArgentina = 1;
+
+                                var datos = new Array('', 'route', 'street_number', 'administrative_area_level_2', 'locality');
+                                var completa = "";
+                                dire = "";
+                                var error = "";
+                                var i = 0;
+                                for (i = 0; i < results[0].address_components.length; i++) {
+
+                                    if (datos.indexOf(results[0].address_components[i].types[0]) > 0
+                                        && results[0].address_components[i].long_name != "Unnamed Road") {
+                                        if (i > 0 && dire != '') dire += ', ';
+                                        dire += results[0].address_components[i].long_name;
+                                    }
+
+                                    if (results[0].address_components[i].types[0] == 'route' && results[0].address_components[i].long_name != "Unnamed Road") {
+                                        banderaNoRoute = 0;
+                                    }
+
+                                    if (results[0].address_components[i].types[0] == 'street_number' && results[0].address_components[i].long_name != "Unnamed Road") {
+                                        banderaNoStreetNumber = 0;
+
+                                    }
+
+                                    if (results[0].address_components[i].types[0] == 'administrative_area_level_1' && results[0].address_components[i].long_name == "La Rioja") {
+                                        banderaLaRioja = 0;
+
+                                    }
+
+                                    if (results[0].address_components[i].types[0] == 'country' && results[0].address_components[i].long_name == "Argentina") {
+                                        banderaArgentina = 0;
+
+                                    }
+                                }
+
+                                if (banderaLaRioja || banderaArgentina) {
+                                    error += "Selecciono un lugar que no se encuentra en La Rioja, Argentina\n";
+                                    console.log("ESTAMOS");
+                                }
+
+                                if (error != "") {
+                                    console.log("ESTAMOS AQUI");
+                                    direccionGoogle = "";
+                                    direccionGoogleInput.value = "";
+                                    latitud = "";
+                                    longitud = "";
+                                    alert("ATENCIÓN:\n\n" + error + "\n\nPor favor vuelva a seleccionar la ubicación!!")
+                                } else {
+                                    direccionGoogle = dire;
+                                    direccionGoogleInput.value = dire;
+                                    latitud = latLng.lat();
+                                    longitud = latLng.lng();
+                                    setTitlePage();
+                                }
+                            }
+                            else {
+                                direccionGoogle = "";
+                                console.log("SEGUNDA " + direccionGoogle);
+
+                            }
+                        }
+                    });
+            }
+
+            function setTitlePage() {
+                document.title = '';
+                setTimeout(function () {
+                    document.title = direccionSistema + "@" + latitud + "@" + longitud + "@" + direccionGoogle;
+                    document.getElementById("aa").innerHTML = document.title
+                }, 100)
+            }
+
+            var options = {
+                types: ['(address)'],
+                componentRestrictions: { country: "AR" }
+            };
+
+            // esto sirve para buscar un lugar en el mapa
+            var searchBox = new google.maps.places.SearchBox(direccionGoogleInput, options);
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(direccionGoogleInput);
+
+            searchBox.addListener('places_changed', function () {
+
+                var places = searchBox.getPlaces();
+
+                if (places.length == 0) {
+                    return;
+                }
+
+                // For each place, get the icon, name and location.
+                var bounds = new google.maps.LatLngBounds();
+
+                places.forEach(function (place) {
+                    var location = place.geometry.location;
+
+                    if (place.geometry.viewport) {
+                        bounds.union(place.geometry.viewport);
+                    } else {
+                        bounds.extend(place.geometry.location);
+                    }
+
+                    latitud = location.lat();
+                    longitud = location.lng();
+                    //direccionGoogle = direccionGoogleInput.value
+                    //console.log(direccionGoogle);
+                    getAddress(location);
+                    dibujarmarker(location);
+
+                });
+
+                map.fitBounds(bounds);
+
+            });
+
+            var placeService = new google.maps.places.PlacesService(map);
+            var displaySuggestions = function (predictions, status) {
+
+                if (status != google.maps.places.PlacesServiceStatus.OK) {
+                    //console.log(status);
+                    return;
+                }
+
+                predictions.forEach(function (prediction) {
+
+                    placeService.getDetails({
+                        placeId: prediction.place_id
+                    }, function (place, status) {
+
+                        if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+                            var bounds = new google.maps.LatLngBounds();
+                            var location = place.geometry.location;
+
+                            dibujarmarker(location);
+                            bounds.extend(location);
+                            map.fitBounds(bounds);
+
+                            direccionGoogleInput.value = prediction.description;
+                            direccionGoogle = prediction.description;
+                            console.log("TERCERA " + direccionGoogle);
+                            latitud = location.lat();
+                            longitud = location.lng();
+                        }
+                    });
+                });
+            };
+
+            var autocompleteService = new google.maps.places.AutocompleteService();
+            var geocoder = new google.maps.Geocoder();
+
+            // evento click
+            google.maps.event.addListener(map, "click", function (e) {
+
+                latitud = e.latLng.lat();
+                longitud = e.latLng.lng();
+                getAddress(e.latLng);
+                dibujarmarker(e.latLng);
+
+            });
+
+            if (latitud != '' && longitud != '') {
+                var latLng = new google.maps.LatLng(latitud, longitud);
+                var bounds = new google.maps.LatLngBounds();
+
+                getAddress(latLng);
+                dibujarmarker(latLng);
+
+                //bounds.extend(latLng);
+                //map.fitBounds(bounds);               
+                map.setCenter(latLng);
+                //map.setZoom(20);
+
+            } else if (direccionSistema != '') {
+                autocompleteService.getQueryPredictions({ input: direccionSistema }, displaySuggestions);
+                setTitlePage();
+            } else if (direccionGoogle != '') {
+                autocompleteService.getQueryPredictions({ input: direccionGoogle }, displaySuggestions);
+                setTitlePage();
+            }
+
+        }
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0ltBbgLWM4jf9tVmf_-f9lHzg0-cmw4Q&libraries=places&callback=initAutocomplete"
+    async defer></script>
+        
+  </body>
+</html>
+

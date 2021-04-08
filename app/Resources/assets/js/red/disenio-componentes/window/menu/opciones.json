@@ -1,0 +1,28 @@
+{
+  "opciones": [{
+    "id": "grupo-listar",
+    "label": "Listar elementos",
+    "icon": "Listar",
+    "params":{}
+  },
+  {
+    "id": "elemento-nuevo",
+    "label": "Nuevo elemento",
+    "icon": "Nuevo",
+    "params":{}
+  },
+  {
+    "id": "imprimir",
+    "label": "Imprimir",
+    "icon": "Imprimir",
+    "params":{}
+  }
+],
+"default": "grupo-listar",
+"clear": {
+    "id": "",
+    "label": "",
+    "icon": "",
+    "params":{}
+  }
+}

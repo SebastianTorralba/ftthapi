@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}{% endblock %}Internet Para Todos</title>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />     
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">      
+        
+        <style>
+            .descripcion p{
+                margin-top: 0px;
+            }
+        </style>        
+    </head>
+    <body>
+
+        <table cellspacing="0" cellpadding="0" style="background-color: #DCDCDC;max-width:550px; padding: 0; border: 0; margin: 0 auto; font-size: 16px;font-family: 'Open Sans', sans-serif;">
+            <tbody>
+                <tr>
+                    <td >
+                        <div style="width: 100%;">                                                        
+                            <img alt="Internet Para Todos" style="width: 100%;" src="{{ absolute_url(asset("assets/imagenes/email/venta_productos/header.png")) }}" />                               
+                        </div>              
+            
+                        <div style="width: 92%; padding: 10px 20px; font-size: 15px; text-align: left;color:#777;">                                        
+
+                            <span style="font-size: 22px;">Hola <b>{{ cupon.sexo == 'F' ? 'Sra.' : 'Sr.' }} {{ cupon.nombre }}</b></span>
+                            <div style="width: 100%; height: 3px; margin: 20px 0; background-color: #fff;"></div>
+                            <p> <b style="color:#111;">{{ vendedor != '' ? vendedor~' le ha enviado' : 'Le hemos enviado' }}   el cupon de pago n° {{ cupon.id }}</b> por los productos y/o servicios que usted a solicitado y que a continuación se detallan:</p>
+
+                            <table  style="border:0;  width:465px; font-style:italic; color:#00347c; font-weight:bold; margin-left:15px;">                 
+                                {% for item in items %}
+                                    <tr>
+                                        <td style="text-align: left; width: 5%; padding: 5px;">{{ item.cantidad }}</td>
+                                        <td style="text-align: left; width: 65%; padding: 5px;">{{ item.nombre }} {{ item.montoEnvio > 0 ? ' + costo de envío' : '' }}</td>
+                                        <td style="text-align: left; width: 28%; padding: 5px;">$ {{ item.montoTotal }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                            
+                            {% if cupon.enviarDomicilio %}                            
+                                <table style=" border-top:3px solid #fff;width:500px;margin-top: 40px;background-color: #fff;">                                                              
+                                    <tr>
+                                        <td colspan='2' style="text-align: justify;  font-size: 15px;color: #333;">
+                                            Luego de que realice el pago, los productos listados anteriormente serán enviados a la siguiente dirección: <b>{{ cupon.direccionCalle }} {{ cupon.direccionNumero }}, {{ cupon.direccionBarrio }} - {{ cupon.direccionLocalidad }}({{ cupon.direccionCp }}), {{ cupon.direccionProvincia }}</b>
+                                        </td>
+                                    </tr>                                                                 
+                                </table>    
+                            {% endif %}                         
+                            
+                            <table style=" border-top:3px solid #fff;width:500px;margin-top: 40px;">                               
+                                <tr>
+                                    <td align="center" colspan="3" style="padding-top: 5px;">
+                                        <br>
+                                        <a href="{{ cupon.url }}" style="display: block; font-style: normal; padding: 15px 25px; border-radius: 5px; color: #fff; text-decoration: none; background-color: #0066AE;font-size: 18px;" title="ABRIR CUPÓN DE PAGO">
+                                            ABRIR CUPÓN DE PAGO
+                                        </a>
+                                        <br>                                            
+                                    </td>
+                                </tr>                                 
+                                <tr>
+                                    <td colspan='2' style="text-align: justify;  font-size: 11px;color: #000;">
+                                        Para confirmar la compra ustede deberá abrir el cupón de pago desde el botón que aquí se indica y seleccionar los medios de pago que usted desee. Si no va realizar la compra o los productos listados en el cupón son incorrectos, comuniquese con nosotros al 0 800 555 8636
+ para cancelar el cupón de pago
+                                    </td>
+                                </tr>                                                                 
+                            </table>
+                            <br>
+                        </div> 
+
+                        <div style="background-color:#0066AE;font-family: 'Open Sans', sans-serif; border-top: solid #fff 5px; padding: 15px; color:#fff; font-size:12px; text-align: center; float: left; width: 530px;">
+                            <a title="mi.iparatodos.com.ar" href="http://mi.iparatodos.com.ar" style="float:left;margin-left:60px;width: 400px; color: #0489D0; text-decoration: none; font-size: 18px;">
+                                <p style="float:left; font-size: 14px; color:#fff;">Más información en&nbsp;&nbsp;</p>                                
+                                <img alt="Internet Para Todos" style="width: 250px; float: left;" src="{{ absolute_url(asset("assets/imagenes/email/venta_productos/logo_footer.png")) }}" />                                                           
+                            </a>
+                        </div>                             
+                            
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+                                
+    </body>
+</html>                                   

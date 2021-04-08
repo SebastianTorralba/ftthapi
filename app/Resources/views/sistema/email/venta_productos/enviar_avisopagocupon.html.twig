@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}{% endblock %}Internet Para Todos</title>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />     
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">      
+        
+        <style>
+            .descripcion p{
+                margin-top: 0px;
+            }
+        </style>        
+    </head>
+    <body>
+
+        <table cellspacing="0" cellpadding="0" style="background-color: #DCDCDC;max-width:550px; padding: 0; border: 0; margin: 0 auto; font-size: 16px;font-family: 'Open Sans', sans-serif;">
+            <tbody>
+                <tr>
+                    <td >
+                        <div style="width: 100%;">                                                        
+                            <img alt="Internet Para Todos" style="width: 100%;" src="{{ absolute_url(asset("assets/imagenes/email/venta_productos/header.png")) }}" />                               
+                        </div>              
+            
+                        <div style="width: 92%; padding: 10px 20px; font-size: 15px; text-align: left;color:#777;">                                        
+
+                            <span style="font-size: 22px;">Hola <b>{{ cupon.sexo == 'F' ? 'Sra.' : 'Sr.' }} {{ cupon.nombre }}</b></span>
+                            <div style="width: 100%; height: 3px; margin: 20px 0; background-color: #fff;"></div>
+                            <p><b style="color:#333;">Hemos recibido el pago del cupon n° {{ cupon.id }}</b>  por los productos y/o servicios que usted a solicitado y que a continuación se detallan:</p>
+
+                            <table  style="border:0;  width:465px; font-style:italic; color:#00347c; font-weight:bold; margin-left:15px;">                 
+                                {% for item in items %}
+                                    <tr>
+                                        <td style="text-align: left; width: 5%; padding: 5px;">{{ item.cantidad }}</td>
+                                        <td style="text-align: left; width: 65%; padding: 5px;">{{ item.nombre }} {{ item.montoEnvio > 0 ? ' + costo de envío' : '' }}</td>
+                                        <td style="text-align: left; width: 28%; padding: 5px;">$ {{ item.montoTotal }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                            
+                            <table style=" border-top:3px solid #fff;width:500px;margin-top: 40px;background-color: #fff;">                                                              
+                                <tr>
+                                    <td colspan='2' style="text-align: justify;  font-size: 15px;color: #333;">
+                                        {% if cupon.enviarDomicilio %}
+                                            <b>Estamos preparando el envío.</b> Le avisaremos cuando los productos listados estén en camino. También le indicaremos como deberá hacer para poder seguir su ubicación.                                            
+                                            <b>Sus productos serán enviado a la siguiente dirección: {{ cupon.direccionCalle }} {{ cupon.direccionNumero }}, {{ cupon.direccionBarrio }} - {{ cupon.direccionLocalidad }}({{ cupon.direccionCp }}), {{ cupon.direccionProvincia }}</b>                                            
+                                        {% else %}
+                                            <b>{{ cupon.sexo == 'F' ? 'Sra.' : 'Sr.' }} {{ cupon.nombre }} puede pasar a buscar sus productos por la sucursal de {{ cupon.sucursal }} de Internet Para Todos. RECUERDE LLEVAR SU DNI y EL NÚMERO DE VENTA {{ cupon.ventaId }}.</b>                                             
+                                            <br>Para conocer la ubicación de nuestra sucursales puede ingresar aquí 
+                                            <a style="color:#333;" href="http://www.iparatodos.com.ar/institucional/sucursales" title="Información sucursales Internet Para Todos"> Sucursales Internet Para Todos</a>                                            
+                                        {% endif %}
+                                    </td>
+                                </tr>                                                                 
+                            </table>
+                            <br>
+                            
+                        </div> 
+
+                        <div style="background-color:#0066AE;font-family: 'Open Sans', sans-serif; border-top: solid #fff 5px; padding: 15px; color:#fff; font-size:12px; text-align: center; float: left; width: 530px;">
+                            <a title="mi.iparatodos.com.ar" href="http://mi.iparatodos.com.ar" style="float:left;margin-left:60px;width: 400px; color: #0489D0; text-decoration: none; font-size: 18px;">
+                                <p style="float:left; font-size: 14px; color:#fff;">Más información en&nbsp;&nbsp;</p>                                
+                                <img alt="Internet Para Todos" style="width: 250px; float: left;" src="{{ absolute_url(asset("assets/imagenes/email/venta_productos/logo_footer.png")) }}" />                                                           
+                            </a>
+                        </div>                             
+                            
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+                                
+    </body>
+</html>                                   

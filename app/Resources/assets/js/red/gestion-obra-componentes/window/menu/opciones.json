@@ -1,0 +1,22 @@
+{
+  "opciones": [{
+    "id": "obra-listar",
+    "label": "Listar elementos",
+    "icon": "Listar obras",
+    "params":{}
+  },
+  {
+    "id": "imprimir",
+    "label": "Imprimir",
+    "icon": "Imprimir",
+    "params":{}
+  }
+],
+"default": "obra-listar",
+"clear": {
+    "id": "",
+    "label": "",
+    "icon": "",
+    "params":{}
+  }
+}

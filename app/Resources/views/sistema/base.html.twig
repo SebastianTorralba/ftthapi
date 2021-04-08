@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>RP2</title>
+    <link href="{{ asset("assets/css/app.min.css") }}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container contenido">
+        {% block body %}{% endblock body %}
+    </div>
+
+    <script src="{{ asset("assets/js/main.js") }}"></script>
+    {% block script %}{% endblock script %}
+
+  </body>
+</html>

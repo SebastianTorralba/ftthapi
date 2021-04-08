@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: Lsw\DoctrinePdoDblib\Doctrine\DBAL\Driver\PDODblib\Driver
+    database_host: 192.168.5.2
+    database_port: 1433
+    database_name: internet_test
+#    database_name: db_internet
+    database_user: iptsystem
+    database_password: iptsystem
+    mailer_transport: gmail
+    mailer_host: ~
+    mailer_user: avisos2@iparatodos.com.ar
+    mailer_password: avisos123456
+    secret: sdasd
+    locale: es
+
+    sandbox: true
